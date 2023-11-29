@@ -1,0 +1,32 @@
+.Nav {
+    position: absolute;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    left: 0;
+    background-color: #95afc0;
+}
+
+.Nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 100px;
+    list-style: none;
+}
+.Nav__item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.Nav__link {
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+
+}

@@ -1,14 +1,15 @@
 import Home from './components/views/Home';
-import { Header, Footer, Wrapper } from './components'
+import { Header, Footer, Wrapper, Nav } from './components'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
+      <Wrapper>
 
       <Header />
-      <Wrapper>
+        <Nav />
         <Router>
           <Switch>
             <Route path='/'>
@@ -20,8 +21,8 @@ function App() {
           </Switch>
 
         </Router>
+        <Footer />
       </Wrapper>
-      <Footer />
 
     </div>
   );
