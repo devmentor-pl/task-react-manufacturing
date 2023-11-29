@@ -1,5 +1,5 @@
-import Home from './components/views/Home';
-import { Header, Footer, Wrapper, Nav, About } from './components'
+import { Home, About, Categories } from './components/views';
+import { Header, Footer, Wrapper, Nav } from './components'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
@@ -20,7 +20,7 @@ function App() {
               <About />
             </Route>
             <Route path='/categories'>
-              <About />
+              <Categories />
             </Route>
           </Switch>
 
