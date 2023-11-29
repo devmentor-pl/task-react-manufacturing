@@ -4,3 +4,9 @@
     align-items: center;
     gap: 30px;
 }
+
+.About__link {
+    color: green;
+    font-weight: bold;
+
+}

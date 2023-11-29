@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from '../'
 import '../../styles/About.css'
 import { Link } from 'react-router-dom';
 
@@ -14,13 +13,13 @@ const About = () => {
                     <p>
                         If you want to create a new category:
                     </p>
-                    {/* <p>go to <Link to="/">??</Link>! and press <b>Create category button</b></p> */}
+                    <p>go to <Link className="About__link" to="/">Home</Link> and press <b>Create category button</b></p>
                 </li>
                 <li>
                     <p>
                         If you want to check the current categories:
                     </p>
-                    <p>go to <b>Your Categories</b></p>
+                    <p>go to <Link className="About__link" to="/categories">Your categories</Link></p>
                 </li>
                 <li>
                     <p>
