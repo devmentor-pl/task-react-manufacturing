@@ -1,5 +1,12 @@
-import  types  from './flashcards.types'
+import types from './flashcards.types'
 import reducer from './flashcards.reducer'
-import { setActiveCategoryForm, setInactiveCategoryForm } from './flashcards.actions'
+import { setActiveCategoryForm, setInactiveCategoryForm, addCategory, deleteCategory } from './flashcards.actions'
 
-export { types, reducer, setActiveCategoryForm, setInactiveCategoryForm }
+export {
+    types,
+    reducer,
+    setActiveCategoryForm,
+    setInactiveCategoryForm,
+    addCategory,
+    deleteCategory
+}
