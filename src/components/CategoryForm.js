@@ -2,14 +2,13 @@ import React, { useState } from "react";
 import '../styles/CategoryForm.css'
 import DeleteButton from "./DeleteButton";
 import { useDispatch, useSelector } from "react-redux";
-import { addCategory } from "../modules/flashcards";
+import { addCategory, setInactiveCategoryForm } from "../modules/flashcards";
 
 const CategoryForm = () => {
     const [categoryName, setCategoryName] = useState('')
     const [error, setError] = useState()
-    const { categories } = useSelector(state => state.flashcards)
 
-    console.log(categories)
+    const { categories } = useSelector(state => state.flashcards)
     const dispatch = useDispatch()
 
     const changeHandler = e => {
@@ -32,10 +31,9 @@ const CategoryForm = () => {
         }
 
         dispatch(addCategory(categoryName))
-        setCategoryName('')
-
-        // console.log(categories)
+        dispatch(setInactiveCategoryForm())
     }
+
     return (
         <div className="Form__box">
             <section className="Form__popup">
@@ -48,7 +46,7 @@ const CategoryForm = () => {
                         <input type="submit" className="Form__input Form__input--submit" value="create" />
                     </label>
                 </form>
-                <DeleteButton />
+                <DeleteButton buttonId='CategoryForm'/>
             </section>
         </div >
     )

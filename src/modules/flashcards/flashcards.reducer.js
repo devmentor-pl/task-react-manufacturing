@@ -1,6 +1,6 @@
 import { types } from '.'
 
-const initState = { categoryFormIsActive: false, categories: [] }
+const initState = { categoryFormIsActive: false, categories: [{name:'wed', list:[]}, {name:'wed32e', list:[]}] }
 
 const reducer = (state = initState, action) => {
     switch (action.type) {
