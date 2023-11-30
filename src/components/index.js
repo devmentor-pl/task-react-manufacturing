@@ -6,6 +6,7 @@ import CreateButton from "./CreateButton";
 import CategoryForm from "./CategoryForm";
 import DeleteButton from "./DeleteButton";
 import Category from "./Category";
+import Popup from "./Popup";
 
 export {
     Header,
@@ -15,5 +16,6 @@ export {
     CreateButton,
     CategoryForm,
     DeleteButton,
-    Category
+    Category,
+    Popup
 }

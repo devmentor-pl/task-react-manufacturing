@@ -1,0 +1,21 @@
+.Popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #535c68;
+}
+
+.Popup__section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    box-shadow: 1px 1px 20px 1px #535c68;
+    ;
+    background-color: white;
+}

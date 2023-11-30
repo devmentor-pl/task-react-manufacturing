@@ -1,4 +1,4 @@
-.Form__box {
+/* .Form__box {
     position: absolute;
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@
     box-shadow: 1px 1px 20px 1px #535c68;
     ;
     background-color: white;
-}
+} */
 
 .Form__form {
     display: flex;

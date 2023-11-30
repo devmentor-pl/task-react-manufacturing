@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import '../styles/CategoryForm.css'
-import DeleteButton from "./DeleteButton";
+import { Popup, DeleteButton } from '.'
 import { useDispatch, useSelector } from "react-redux";
 import { addCategory, setInactiveCategoryForm } from "../modules/flashcards";
 
@@ -35,20 +35,18 @@ const CategoryForm = () => {
     }
 
     return (
-        <div className="Form__box">
-            <section className="Form__popup">
-                <form onSubmit={submitHandler} className="Form__form">
-                    <label className="Form__label">Category name
-                        <input value={categoryName} onChange={changeHandler} type="text" className="Form__input" />
-                        {error && <p className="Form__error">{error}</p>}
-                    </label>
-                    <label className="Form__label--submit">
-                        <input type="submit" className="Form__input Form__input--submit" value="create" />
-                    </label>
-                </form>
-                <DeleteButton buttonId='CategoryForm'/>
-            </section>
-        </div >
+        <Popup>
+            <form onSubmit={submitHandler} className="Form__form">
+                <label className="Form__label">Category name
+                    <input value={categoryName} onChange={changeHandler} type="text" className="Form__input" />
+                    {error && <p className="Form__error">{error}</p>}
+                </label>
+                <label className="Form__label--submit">
+                    <input type="submit" className="Form__input Form__input--submit" value="create" />
+                </label>
+            </form>
+            <DeleteButton buttonId='CategoryForm'/>
+        </Popup>
     )
 }
 
