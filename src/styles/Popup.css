@@ -9,6 +9,11 @@
 }
 
 .Popup__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -16,6 +21,24 @@
     width: 400px;
     height: 200px;
     box-shadow: 1px 1px 20px 1px #535c68;
-    ;
     background-color: white;
+    z-index: 1;
+}
+
+.Popup__buttons {
+    display: flex;
+    gap: 60px
+}
+
+.Popup__button {
+    height: 30px;
+    width: 80px;
+    background-color: transparent;
+    border: 1px solid  #95afc0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Popup__button:hover {
+    background-color: #95afc0;
 }
