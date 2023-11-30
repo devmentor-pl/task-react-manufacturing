@@ -1,6 +1,12 @@
 import { types } from '.'
+import { v4 as uuidv4 } from 'uuid';
 
-const initState = { categoryFormIsActive: false, categories: [{name:'wed', list:[]}, {name:'wed32e', list:[]}] }
+const initState = {
+    categoryFormIsActive: false,
+    categories: [
+        { id: 1, name: 'wed', list: [] },
+        { id: 2, name: 'wed32e', list: [] }]
+}
 
 const reducer = (state = initState, action) => {
     switch (action.type) {
@@ -17,7 +23,13 @@ const reducer = (state = initState, action) => {
         case types.ADD_CATEGORY:
             return {
                 ...state,
-                categories: [...state.categories, { name: action.payload.item, list: [] }]
+                categories: [...state.categories, { id: uuidv4(), name: action.payload.item, list: [] }]
+            }
+        case types.DELETE_CATEGORY:
+            const newCategories = [...state.categories].filter(item => item.id !== action.payload.id)
+            return {
+                ...state,
+                categories: newCategories
             }
         default:
             return state

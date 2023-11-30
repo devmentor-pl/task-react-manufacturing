@@ -7,7 +7,8 @@ const Categories = () => {
 
     const { categories } = useSelector(state => state.flashcards)
     const renderCategory = () => {
-        return categories.map(item => <Category item={item}/>)
+        
+        return categories.map(item => <Category key={item.id} item={item} />)
     }
     return (
         <section className="Categories">

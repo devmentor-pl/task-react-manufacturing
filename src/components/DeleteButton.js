@@ -1,17 +1,19 @@
 import React from "react";
 import '../styles/DeleteButton.css'
 import { useDispatch } from "react-redux";
-import { setInactiveCategoryForm } from "../modules/flashcards";
+import { setInactiveCategoryForm, deleteCategory } from "../modules/flashcards";
 
-const DeleteButton = ({buttonId}) => {
+const DeleteButton = ({buttonId, itemId}) => {
     const dispatch = useDispatch()
+    
 
     const clickHandler = () => {
         if (buttonId === 'CategoryForm') {
             dispatch(setInactiveCategoryForm()) 
         }
         if (buttonId==="Category") {
-
+            console.log()
+            dispatch(deleteCategory(itemId))
         }
 
     }
