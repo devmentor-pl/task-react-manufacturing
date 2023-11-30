@@ -15,7 +15,8 @@
     transform: translate(-50%, -50%);
     width: 400px;
     height: 200px;
-    box-shadow: 1px 1px 20px 1px #535c68;;
+    box-shadow: 1px 1px 20px 1px #535c68;
+    ;
     background-color: white;
 }
 
@@ -62,3 +63,7 @@
     background-color: #778c99;
 }
 
+.Form__error {
+    font-size: 0.8rem;
+    color: red
+}

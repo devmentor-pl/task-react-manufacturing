@@ -1,6 +1,6 @@
 import { types } from '.'
 
-const initState = { categoryFormIsActive: false }
+const initState = { categoryFormIsActive: false, categories: [] }
 
 const reducer = (state = initState, action) => {
     switch (action.type) {
@@ -13,6 +13,11 @@ const reducer = (state = initState, action) => {
             return {
                 ...state,
                 categoryFormIsActive: false
+            }
+        case types.ADD_CATEGORY:
+            return {
+                ...state,
+                categories: [...state.categories, { name: action.payload.item, list: [] }]
             }
         default:
             return state
