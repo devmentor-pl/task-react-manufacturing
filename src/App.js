@@ -1,5 +1,5 @@
 import { Home, About, Categories } from './components/views';
-import { Header, Footer, Wrapper, Nav } from './components'
+import { Header, Footer, Wrapper, Nav, CategoryForm } from './components'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
@@ -23,7 +23,7 @@ function App() {
               <Categories />
             </Route>
           </Switch>
-
+          <CategoryForm />
         <Footer />
       </Wrapper>
       </Router>
