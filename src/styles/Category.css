@@ -4,8 +4,12 @@
     border: 1px solid #95afc0;
     border-radius: 10px;
     cursor: pointer;
+}
 
+.Category:hover {
+    background-color: #DFF9FB
 }
 
 .Category__name {
+    text-transform: uppercase;
 }

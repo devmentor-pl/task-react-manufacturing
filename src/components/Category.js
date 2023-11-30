@@ -27,13 +27,15 @@ const Category = ({ item }) => {
                     setIsDeletePopupActive={setIsDeletePopupActive}
                 />
             </div>
-            {isDeletePopupActive && (<Popup>
-                <p className="">Are you sure you want to delete it?</p>
-                <div className="Popup__buttons">
-                    <button onClick={deleteHandler} className="Popup__button">Yes</button>
-                    <button onClick={() => setIsDeletePopupActive(false)} className="Popup__button">No</button>
-                </div>
-            </Popup>)}
+            {isDeletePopupActive &&
+                <Popup>
+                    <p className="">Are you sure you want to delete this category?</p>
+                    <div className="Popup__buttons">
+                        <button onClick={deleteHandler} className="Popup__button">Yes</button>
+                        <button onClick={() => setIsDeletePopupActive(false)} className="Popup__button">No</button>
+                    </div>
+                </Popup>
+            }
         </>
     )
 }
