@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/CategoryForm.css'
 
-const CategoryForm = ({ categoryList = [] }) => {
+const CategoryForm = () => {
     return (
         <div className="Form__box">
             <section className="Form__popup">

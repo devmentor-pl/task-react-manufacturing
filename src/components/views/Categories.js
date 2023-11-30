@@ -1,6 +1,6 @@
 import React from "react";
 import '../../styles/Categories.css'
-import Button from "../Button";
+import CreateButton from "../CreateButton";
 
 
 const Categories = () => {
@@ -9,7 +9,7 @@ const Categories = () => {
         <section className="Categories">
             <h2 className="Categories__heading">Your current categories</h2>
             <p className="Categories__message">You don't have any category yet</p>
-            <Button>Create new category</Button>
+            <CreateButton>Create new category</CreateButton>
         </section>
 
     )
