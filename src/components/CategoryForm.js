@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/CategoryForm.css'
+import DeleteButton from "./DeleteButton";
 
 const CategoryForm = () => {
     return (
@@ -13,7 +14,7 @@ const CategoryForm = () => {
                         <input type="submit" className="Form__input Form__input--submit" value="create" />
                     </label>
                 </form>
-                <button className="Form__button">+</button>
+                <DeleteButton />
             </section>
         </div >
     )
