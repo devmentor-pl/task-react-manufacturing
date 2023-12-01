@@ -12,16 +12,12 @@ const Category = ({ item }) => {
     const {id, name} = item
     const lowercaseName = name.toLowerCase()
 
-    const clickHandler = ()=> {
-
-    }
-
     const deleteHandler = () => {
         dispatch(deleteCategory(id))
     }
     return (
         <>
-            <div className="Category" onClick={clickHandler}>
+            <div className="Category">
                 <Link to={`/flashcards/${lowercaseName}`}>
                     <p className="Category__name">{lowercaseName}</p>
                 </Link>

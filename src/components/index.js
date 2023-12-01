@@ -9,6 +9,7 @@ import Category from "./Category";
 import Popup from "./Popup";
 import Flashcard from "./Flashcard";
 import FlashcardForm from "./FlashcardForm";
+import CurrentFlashcard from "./CurrentFlashcard";
 
 export {
     Header,
@@ -21,5 +22,6 @@ export {
     Category,
     Popup,
     Flashcard,
-    FlashcardForm
+    FlashcardForm,
+    CurrentFlashcard
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/CreateButton.css'
+import '../styles/Button.css'
 import { useDispatch } from "react-redux";
 import { setActiveCategoryForm } from "../modules/flashcards";
 
@@ -18,7 +18,7 @@ const CreateButton = props => {
         }
     }
 
-    return <button onClick={clickHandler} className="CreateButton">{children}</button>
+    return <button onClick={clickHandler} className="Button">{children}</button>
 }
 
 export default CreateButton

@@ -1,4 +1,4 @@
-.CreateButton {
+.Button {
     padding: 15px 25px;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -10,6 +10,6 @@
     transition: 0.3s ease;
 }
 
-.CreateButton:hover {
+.Button:hover {
     background-color: #778c99;
 }
