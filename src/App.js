@@ -1,4 +1,4 @@
-import { Home, About, Categories } from './components/views';
+import { Home, About, Categories, Flashcards } from './components/views';
 import { Header, Footer, Wrapper, Nav, CategoryForm } from './components'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { useSelector } from 'react-redux';
@@ -27,6 +27,10 @@ function App() {
 
             <Route path='/categories'>
               <Categories />
+            </Route>
+
+            <Route path='/flashcards/:category'>
+              <Flashcards />
             </Route>
 
           </Switch>
