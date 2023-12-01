@@ -5,16 +5,16 @@ import { setActiveCategoryForm } from "../modules/flashcards";
 
 
 const CreateButton = props => {
-    const { children } = props
+    const { children, setPopupActive } = props
 
     const dispatch = useDispatch()
 
     const clickHandler = () => {
         if (children === 'Create a new flashcard') {
-
+            setPopupActive(true)
         }
         if (children === 'Create a new category') {
-        dispatch(setActiveCategoryForm())
+            dispatch(setActiveCategoryForm())
         }
     }
 

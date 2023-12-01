@@ -1,11 +1,13 @@
 import React from "react";
 import '../../styles/Categories.css'
 import { useSelector } from "react-redux";
-import { Category, CreateButton } from '../'
+import { Category, CreateButton, CategoryForm } from '../'
 
 const Categories = () => {
 
     const { categories } = useSelector(state => state.flashcards)
+    const { categoryFormIsActive } = useSelector(state => state.flashcards)
+
     const renderCategory = () => {
         
         return categories.map(item => <Category key={item.id} item={item} />)
@@ -19,6 +21,8 @@ const Categories = () => {
                 <div className="Categories__box">{renderCategory()}</div>
             }
             <CreateButton>Create a new category</CreateButton>
+            {categoryFormIsActive && <CategoryForm />}
+
         </section>
 
     )

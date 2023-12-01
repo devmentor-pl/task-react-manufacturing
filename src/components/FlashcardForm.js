@@ -3,7 +3,7 @@ import '../styles/CategoryForm.css'
 
 import { Popup, DeleteButton } from '.'
 
-const FlashcardForm = () => {
+const FlashcardForm = ({setPopupActive}) => {
     const [flashcardName, setFlashcardName] = useState('')
     const [definition, setDefinition] = useState('')
     const [error, setError] = useState()
@@ -38,7 +38,7 @@ const FlashcardForm = () => {
                     <input type="submit" className="Form__input Form__input--submit" value="create" />
                 </label>
             </form>
-            <DeleteButton buttonId='FlashcardForm' />
+            <DeleteButton buttonId='FlashcardForm' setPopupActive={setPopupActive}/>
         </Popup>
     )
 }

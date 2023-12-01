@@ -3,7 +3,7 @@ import '../styles/DeleteButton.css'
 import { useDispatch } from "react-redux";
 import { setInactiveCategoryForm } from "../modules/flashcards";
 
-const DeleteButton = ({buttonId, setIsDeletePopupActive}) => {
+const DeleteButton = ({buttonId, setIsDeletePopupActive, setPopupActive}) => {
     const dispatch = useDispatch()
     
 
@@ -13,6 +13,9 @@ const DeleteButton = ({buttonId, setIsDeletePopupActive}) => {
         }
         if (buttonId==="Category") {
             setIsDeletePopupActive(true)
+        }
+        if (buttonId==="FlashcardForm") {
+            setPopupActive(false)
         }
     }
 

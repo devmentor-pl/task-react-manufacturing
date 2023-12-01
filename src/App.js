@@ -1,11 +1,8 @@
 import { Home, About, Categories, Flashcards } from './components/views';
-import { Header, Footer, Wrapper, Nav, CategoryForm } from './components'
+import { Header, Footer, Wrapper, Nav } from './components'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import { useSelector } from 'react-redux';
 
 function App() {
-
-  const { categoryFormIsActive } = useSelector(state => state.flashcards)
 
   return (
 
@@ -35,13 +32,11 @@ function App() {
 
           </Switch>
 
-          {categoryFormIsActive && <CategoryForm />}
-
         <Footer />
       </Wrapper>
 
       </Router>
-  );
+  )
 }
 
 export default App;

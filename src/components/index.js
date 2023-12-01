@@ -8,6 +8,7 @@ import DeleteButton from "./DeleteButton";
 import Category from "./Category";
 import Popup from "./Popup";
 import Flashcard from "./Flashcard";
+import FlashcardForm from "./FlashcardForm";
 
 export {
     Header,
@@ -19,5 +20,6 @@ export {
     DeleteButton,
     Category,
     Popup,
-    Flashcard
+    Flashcard,
+    FlashcardForm
 }
