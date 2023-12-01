@@ -22,3 +22,15 @@ export const deleteCategory = id => {
         payload: { id }
     }
 }
+export const addFlashcard = item => {
+    return {
+        type: types.ADD_FLASHCARD,
+        payload: { item }
+    }
+}
+export const deleteFlashcard = id => {
+    return {
+        type: types.DELETE_FLASHCARD,
+        payload: { id }
+    }
+}
