@@ -10,7 +10,12 @@ const CreateButton = props => {
     const dispatch = useDispatch()
 
     const clickHandler = () => {
+        if (children === 'Create a new flashcard') {
+
+        }
+        if (children === 'Create a new category') {
         dispatch(setActiveCategoryForm())
+        }
     }
 
     return <button onClick={clickHandler} className="CreateButton">{children}</button>
