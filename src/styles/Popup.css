@@ -6,6 +6,8 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.2);
     color: #535c68;
+    z-index: 10;
+
 }
 
 .Popup__section {
@@ -24,7 +26,7 @@
     box-shadow: 1px 1px 20px 1px #797d83;
     border-radius: 10px;
     background-color: white;
-    z-index: 1;
+    z-index: 100;
 }
 
 .Popup__buttons {

@@ -15,7 +15,12 @@ const Flashcards = () => {
     const { list: flashcards } = currentCategory
     
     const renderFlashcards = () => {
-        return flashcards.map(card => <Flashcard key={card.id} item={card}/>)
+        return flashcards.map((card, index) => <Flashcard
+            key={card.id}
+            item={card}
+            index={index}
+            flashcards={flashcards}
+        />)
     }
 
     return (

@@ -4,12 +4,27 @@ import '../styles/CurrentFlashcard.css'
 import '../styles/Button.css'
 import DeleteButton from "./DeleteButton";
 
-const CurrentFlashcard = ({ definition, name }) => {
+const CurrentFlashcard = ({ item, setCardActive, index, flashcards }) => {
     const [definitionActive, setDefinitionActive] = useState(false)
+    // const [currentCard, setCurrentCard] = useState(item)
+    const [currentCardIndex, setCurrentCardIndex] = useState(index)
 
-    const clickHandler = () => {
+    const { name, definition } = flashcards[currentCardIndex]
+
+    const changeNameHandler = () => {
         setDefinitionActive(state => !state)
     }
+
+    const arrowHandler = (sign) => {
+        if (sign === '<') {
+            setCurrentCardIndex(state => state - 1)
+        }
+        if (sign === '>') {
+            setCurrentCardIndex(state => state + 1)
+        }
+
+    }
+    console.log(flashcards[index + 1])
 
     return (
         <Popup>
@@ -18,12 +33,20 @@ const CurrentFlashcard = ({ definition, name }) => {
                     <div className="CurrentFlashcard__name">{definition}</div>}
                 <button
                     className="CurrentFlashcard__button Button"
-                    onClick={clickHandler}>
+                    onClick={changeNameHandler}>
                     {!definitionActive ? 'Definition' : 'Card name'}
                 </button>
-                <DeleteButton />
-                <button className="CurrentFlashcard__arrow CurrentFlashcard__arrow--left Button">&lsaquo;</button>
-                <button className="CurrentFlashcard__arrow CurrentFlashcard__arrow--right Button">&rsaquo;</button>
+                {currentCardIndex !== 0 && <button
+                    className="CurrentFlashcard__arrow CurrentFlashcard__arrow--left Button"
+                    onClick={() => arrowHandler('<')}>
+                    &lsaquo;
+                </button>}
+                {currentCardIndex !== flashcards.length -1 && <button
+                    className="CurrentFlashcard__arrow CurrentFlashcard__arrow--right Button"
+                    onClick={() => arrowHandler('>')}>
+                    &rsaquo;
+                </button>}
+                <DeleteButton buttonId='CurrentFlashcard' setPopupActive={setCardActive} />
             </section>
         </Popup>
     )

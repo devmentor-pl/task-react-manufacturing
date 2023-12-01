@@ -14,7 +14,7 @@ const DeleteButton = ({buttonId, setIsDeletePopupActive, setPopupActive}) => {
         if (buttonId==="Category") {
             setIsDeletePopupActive(true)
         }
-        if (buttonId==="FlashcardForm") {
+        if (buttonId === "FlashcardForm" || buttonId === "CurrentFlashcard") {
             setPopupActive(false)
         }
     }
