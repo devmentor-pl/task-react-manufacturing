@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import '../styles/Flashcard.css'
 
 const Flashcard = ({ item }) => {
+    // const [ reversed, setReversed ] = useState(false)
     const { name, definition } = item
 
-    return (
-        <div className="Flashcard">
-            <div className="Flashcard__name">{name}</div>
+    const clickHandler = (e) => {
+        console.log(e)
+        // setReversed(true)
+    }
 
-            {/* <div className="Flashcard__definition">{definition}</div> */}
+    return (
+        <div className="Flashcard" onClick={clickHandler}>
+            <div className="Flashcard__name">{name}</div>            
         </div>
     )
 }

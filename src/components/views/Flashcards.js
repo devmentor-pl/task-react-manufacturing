@@ -11,8 +11,7 @@ const Flashcards = () => {
     const [currentCategory] = categories.filter(c => c.name.toLowerCase() === category)
 
     const { list: flashcards } = currentCategory
-    console.log(flashcards)
-
+    
     const renderFlashcards = () => {
         return flashcards.map(card => <Flashcard key={card.id} item={card}/>)
     }
@@ -20,11 +19,15 @@ const Flashcards = () => {
     return (
         <section className="Flashcards">
             <h2 className="Flashcards__heading">Your flashcards in category: <i>{category}</i></h2>
-            {flashcards.length === 0 ?
-                 <p className="Flashcards__message">You don't have any category yet</p> :
-                <div className="Flashcards__box">{renderFlashcards()}</div>
-            }
             <CreateButton>Create a new flashcard</CreateButton>
+            {flashcards.length === 0 ?
+                <p className="Flashcards__message">You don't have any flashcard yet</p> :
+                (<>
+                    <h3 className="Flashcards__heading">Click one and start learning!</h3>
+                    <div className="Flashcards__box">{renderFlashcards()}</div>
+                </>)
+            }
+
         </section>
 
     )
