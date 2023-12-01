@@ -13,7 +13,7 @@ const About = () => {
                     <p>
                         If you want to create a new category:
                     </p>
-                    <p>go to <Link className="About__link" to="/">Home</Link> and press <b>Create category button</b></p>
+                    <p>go to <Link className="About__link" to="/">Home</Link> and press <b>Create a category</b> button</p>
                 </li>
                 <li>
                     <p>
@@ -25,13 +25,11 @@ const About = () => {
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, iure.
                     </p>
-                    <p>go to <b>Your Categories</b></p>
                 </li>
                 <li>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, iure.
                     </p>
-                    <p>go to <b>Your Categories</b></p>
                 </li>
             </ol>
         </section>

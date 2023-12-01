@@ -7,7 +7,7 @@ const Home = () => {
         <section className="Home__header">
             <h2 className="Home__heading">Create your own flashcards and start learning!</h2>
             <div>
-                <CreateButton>Create new category</CreateButton>
+                <CreateButton>Create a new category</CreateButton>
             </div>
         </section>
 

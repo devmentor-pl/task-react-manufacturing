@@ -18,7 +18,7 @@ const Categories = () => {
                  <p className="Categories__message">You don't have any category yet</p> :
                 <div className="Categories__box">{renderCategory()}</div>
             }
-            <CreateButton>Create new category</CreateButton>
+            <CreateButton>Create a new category</CreateButton>
         </section>
 
     )

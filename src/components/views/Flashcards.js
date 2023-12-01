@@ -10,23 +10,21 @@ const Flashcards = () => {
 
     const [currentCategory] = categories.filter(c => c.name.toLowerCase() === category)
 
-    const { list } = currentCategory
-    console.log(list)
+    const { list: flashcards } = currentCategory
+    console.log(flashcards)
 
-    // const { categories } = useSelector(state => state.flashcards)
-    // const renderCategory = () => {
+    const renderFlashcards = () => {
+        return flashcards.map(f => <div>{f.name}</div>)
+    }
 
-    //     return categories.map(item => <Category key={item.id} item={item} />)
-    // }
     return (
         <section className="Flashcards">
             <h2 className="Flashcards__heading">Your flashcards in category: <i>{category}</i></h2>
-            {/* {Flashcards.length !== 0 && <h3>Click the category to see the flashcards</h3>}
-            {Flashcards.length === 0 ?
+            {flashcards.length === 0 ?
                  <p className="Flashcards__message">You don't have any category yet</p> :
-                <div className="Flashcards__box">{renderCategory()}</div>
-            } */}
-            <CreateButton>Create new flashcard</CreateButton>
+                <div className="Flashcards__box">{renderFlashcards()}</div>
+            }
+            <CreateButton>Create a new flashcard</CreateButton>
         </section>
 
     )
