@@ -22,6 +22,8 @@ const CurrentFlashcard = ({ definition, name }) => {
                     {!definitionActive ? 'Definition' : 'Card name'}
                 </button>
                 <DeleteButton />
+                <button className="CurrentFlashcard__arrow CurrentFlashcard__arrow--left Button">&lsaquo;</button>
+                <button className="CurrentFlashcard__arrow CurrentFlashcard__arrow--right Button">&rsaquo;</button>
             </section>
         </Popup>
     )

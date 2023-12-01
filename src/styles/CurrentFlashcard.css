@@ -21,3 +21,18 @@
     padding: 7px 15px;
     transform: translateX(-50%);
 }
+
+.CurrentFlashcard__arrow {
+    position: absolute;
+    top: 50%;
+    padding: 5px 15px;
+    transform: translateY(-50%);
+    font-size: 1.4rem;
+}
+
+.CurrentFlashcard__arrow--left {
+    left: -50px;
+}
+.CurrentFlashcard__arrow--right {
+    right: -50px;
+}
