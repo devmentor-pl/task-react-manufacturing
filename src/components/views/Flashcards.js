@@ -29,7 +29,7 @@ const Flashcards = () => {
                     <div className="Flashcards__box">{renderFlashcards()}</div>
                 </>)
             }
-            {formIsActive && <FlashcardForm setPopupActive={setFormIsActive}/>}
+            {formIsActive && <FlashcardForm setPopupActive={setFormIsActive} category={category}/>}
 
 
         </section>

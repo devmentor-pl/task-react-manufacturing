@@ -1,25 +1,37 @@
 import React, { useState } from "react";
 import '../styles/CategoryForm.css'
+import { v4 as uuidv4 } from 'uuid';
+
 
 import { Popup, DeleteButton } from '.'
 
-const FlashcardForm = ({setPopupActive}) => {
+const FlashcardForm = ({setPopupActive, category}) => {
     const [flashcardName, setFlashcardName] = useState('')
     const [definition, setDefinition] = useState('')
     const [error, setError] = useState()
 
     const changeHandler = e => {
-        console.log(e.target.name)
-        setFlashcardName(e.target.value)
+        const { name, value } = e.target
+        if (name === 'name') {
+            setFlashcardName(value)
+        }
+        if (name === 'definition') {
+            setDefinition(value)
+        }
     }
 
     const submitHandler = e => {
         e.preventDefault()
 
-        if (flashcardName === '') {
-            setError('The field can not be empty')
+        if (flashcardName === '' || definition === '') {
+            setError('All fields must be completed')
             return
         }
+
+        const newItem = { id: uuidv4(), name: flashcardName, definition }
+        console.log(newItem)
+        console.log(category)
+        setPopupActive(false)
 
     }
 
@@ -28,12 +40,12 @@ const FlashcardForm = ({setPopupActive}) => {
             <form onSubmit={submitHandler} className="Form__form">
                 <label className="Form__label" >Flashcard name
                     <input name="name" value={flashcardName} onChange={changeHandler} type="text" className="Form__input" />
-                    {error && <p className="Form__error">{error}</p>}
                 </label>
                 <label className="Form__label" >Definition
-                    <input name="definition" value={flashcardName} onChange={changeHandler} type="text" className="Form__input" />
-                    {error && <p className="Form__error">{error}</p>}
+                    <input name="definition" value={definition} onChange={changeHandler} type="text" className="Form__input" />
                 </label>
+                {error && <p className="Form__error">{error}</p>}
+
                 <label className="Form__label--submit">
                     <input type="submit" className="Form__input Form__input--submit" value="create" />
                 </label>

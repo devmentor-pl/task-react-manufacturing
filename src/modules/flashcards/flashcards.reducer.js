@@ -5,10 +5,9 @@ import { list } from '../../providers/categories';
 const initState = {
     categoryFormIsActive: false,
     categories: [
-        {
-            id: 1, name: 'Frontend', list
-        },
-        { id: 2, name: 'Backend', list: [] }]
+        { id: 1, name: 'Frontend', list },
+        { id: 2, name: 'Backend', list: [] }
+    ]
 }
 
 const reducer = (state = initState, action) => {
@@ -34,6 +33,11 @@ const reducer = (state = initState, action) => {
                 ...state,
                 categories: newCategories
             }
+            case types.ADD_FLASHCARD:
+                return {
+                    ...state,
+                    categories: [...state.categories, { id: uuidv4(), name: action.payload.item, list: [] }]
+                }
         default:
             return state
     }
