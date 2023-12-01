@@ -33,11 +33,23 @@ const reducer = (state = initState, action) => {
                 ...state,
                 categories: newCategories
             }
-            case types.ADD_FLASHCARD:
-                return {
+        case types.ADD_FLASHCARD:
+            const { item, category } = action.payload
+
+            const currentCategoryArr = [...state.categories].filter(cat => cat.name.toLowerCase() === category)
+            const otherCategoryArr = [...state.categories].filter(cat => cat.name.toLowerCase() !== category)
+
+            const [currentCategory] = currentCategoryArr
+            const { list } = currentCategory
+
+            list.push(item)
+
+            console.log(otherCategoryArr)
+
+            return {
                     ...state,
-                    categories: [...state.categories, { id: uuidv4(), name: action.payload.item, list: [] }]
-                }
+                categories: [...otherCategoryArr, currentCategory]
+            }
         default:
             return state
     }

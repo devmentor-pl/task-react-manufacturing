@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import '../styles/CategoryForm.css'
 import { v4 as uuidv4 } from 'uuid';
-
+import { useDispatch } from "react-redux";
+import { addFlashcard } from "../modules/flashcards";
 
 import { Popup, DeleteButton } from '.'
 
@@ -9,6 +10,8 @@ const FlashcardForm = ({setPopupActive, category}) => {
     const [flashcardName, setFlashcardName] = useState('')
     const [definition, setDefinition] = useState('')
     const [error, setError] = useState()
+
+    const dispatch = useDispatch()
 
     const changeHandler = e => {
         const { name, value } = e.target
@@ -29,8 +32,9 @@ const FlashcardForm = ({setPopupActive, category}) => {
         }
 
         const newItem = { id: uuidv4(), name: flashcardName, definition }
-        console.log(newItem)
-        console.log(category)
+        // console.log(newItem)
+        // console.log(category)
+        dispatch(addFlashcard(newItem, category))
         setPopupActive(false)
 
     }
