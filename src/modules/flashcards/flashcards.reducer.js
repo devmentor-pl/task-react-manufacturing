@@ -1,17 +1,12 @@
 import { types } from '.'
 import { v4 as uuidv4 } from 'uuid';
+import { list } from '../../providers/categories';
 
 const initState = {
     categoryFormIsActive: false,
     categories: [
         {
-            id: 1, name: 'Frontend', list: [
-                { id: uuidv4(), name: 'closure', definition: 'wefdwfwefwef' },
-                { id: uuidv4(), name: 'hoisting', definition: 'qsfdjhWEFWFWEWEFWEsdvwfe' },
-                { id: uuidv4(), name: 'rwd', definition: 'qsfdjhWEFWFWEWEFWEsdvwfe' },
-                { id: uuidv4(), name: 'typescript', definition: 'qsfdjhWEFWFWEWEFWEsdvwfe' },
-                { id: uuidv4(), name: 'html', definition: 'qsfdjhWEFWFWEWEFWEsdvwfe' },
-            ]
+            id: 1, name: 'Frontend', list
         },
         { id: 2, name: 'Backend', list: [] }]
 }

@@ -4,3 +4,8 @@
     align-items: center;
     gap: 30px;
 }
+
+.Home__heading {
+    margin: 0 20px;
+    text-align: center;
+}

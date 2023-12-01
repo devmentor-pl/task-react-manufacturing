@@ -9,7 +9,7 @@ const Category = ({ item }) => {
     const [isDeletePopupActive, setIsDeletePopupActive] = useState(false)
     const dispatch = useDispatch()
 
-    const {id, name, list} = item
+    const {id, name} = item
     const lowercaseName = name.toLowerCase()
 
     const clickHandler = ()=> {

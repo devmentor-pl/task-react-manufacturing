@@ -17,3 +17,8 @@
     flex-wrap: wrap;
     width: 70%;
 }
+
+.Categories__heading {
+    margin: 0 20px;
+    text-align: center;
+}

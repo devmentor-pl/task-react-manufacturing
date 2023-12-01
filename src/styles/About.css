@@ -8,5 +8,9 @@
 .About__link {
     color: rgb(92, 171, 245);
     font-weight: bold;
+}
 
+.About__heading {
+    margin: 0 20px;
+    text-align: center;
 }
