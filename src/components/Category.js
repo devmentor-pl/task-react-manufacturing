@@ -3,12 +3,14 @@ import '../styles/Category.css'
 import { DeleteButton, Popup } from '.'
 import { useDispatch } from "react-redux";
 import { deleteCategory } from "../modules/flashcards";
+import { Link } from 'react-router-dom';
 
 const Category = ({ item }) => {
     const [isDeletePopupActive, setIsDeletePopupActive] = useState(false)
     const dispatch = useDispatch()
 
     const {id, name, list} = item
+    const lowercaseName = name.toLowerCase()
 
     const clickHandler = ()=> {
 
@@ -20,7 +22,9 @@ const Category = ({ item }) => {
     return (
         <>
             <div className="Category" onClick={clickHandler}>
-                <p className="Category__name">{name}</p>
+                <Link to={`/flashcards/${lowercaseName}`}>
+                    <p className="Category__name">{lowercaseName}</p>
+                </Link>
                 <DeleteButton
                     buttonId="Category"
                     itemId={id}
