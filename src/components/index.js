@@ -11,6 +11,7 @@ import Flashcard from "./Flashcard";
 import FlashcardForm from "./FlashcardForm";
 import CurrentFlashcard from "./CurrentFlashcard";
 import DeleteSection from "./DeleteSection";
+import NavButton from "./NavButton";
 
 export {
     Header,
@@ -25,5 +26,6 @@ export {
     Flashcard,
     FlashcardForm,
     CurrentFlashcard,
-    DeleteSection
+    DeleteSection,
+    NavButton
 }

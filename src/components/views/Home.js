@@ -11,7 +11,7 @@ const Home = () => {
 
 
     return (<>
-        <section className="Home__header">
+        <section className="Home">
             <h2 className="Home__heading">Create your own flashcards and start learning!</h2>
             <h3>Press the button, fill the form and go to <Link className="About__link" to='/categories'>Your flashcards</Link></h3>
             <div>

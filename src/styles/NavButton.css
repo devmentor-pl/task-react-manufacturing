@@ -1,0 +1,30 @@
+.NavButton {
+    position: fixed;
+    top:20px;
+    left:20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.NavButton__bar {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.NavButton--clicked .NavButton__bar--bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.NavButton--clicked .NavButton__bar--bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.NavButton--clicked .NavButton__bar--bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}

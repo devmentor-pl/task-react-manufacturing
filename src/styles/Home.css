@@ -1,8 +1,10 @@
-.Home__header {
+.Home {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    padding: 20px;
+    text-align: center;
 }
 
 .Home__heading {

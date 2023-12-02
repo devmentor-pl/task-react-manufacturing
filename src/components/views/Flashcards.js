@@ -9,11 +9,14 @@ const Flashcards = () => {
     const { categories } = useSelector(state => state.flashcards)
     const [formIsActive, setFormIsActive] = useState(false)
 
-
+    if (categories.length === 0) return // nie wiem, jak to inaczej rozwiązać. Wcześniej bez tego warunku, jeśli odświeżałam stronę na zakładce flashcards, pojawiał się błąd (categories było puste). 
     const [currentCategory] = categories.filter(c => c.name.toLowerCase() === category)
 
+    console.log('po')
+
     const { list: flashcards = [] } = currentCategory
-    
+
+
     const renderFlashcards = () => {
         return flashcards.map((card, index) => <Flashcard
             key={card.id}
