@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../styles/CategoryForm.css'
+import '../styles/Form.css'
 import { Popup, DeleteButton } from '.'
 import { useDispatch, useSelector } from "react-redux";
 import { addCategory, setInactiveCategoryForm } from "../modules/flashcards";

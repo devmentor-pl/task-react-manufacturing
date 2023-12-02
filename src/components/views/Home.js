@@ -13,7 +13,7 @@ const Home = () => {
     return (<>
         <section className="Home__header">
             <h2 className="Home__heading">Create your own flashcards and start learning!</h2>
-            <h4>Press the button, fill the form and go to <Link className="About__link" to='/categories'>Your flashcards</Link></h4>
+            <h3>Press the button, fill the form and go to <Link className="About__link" to='/categories'>Your flashcards</Link></h3>
             <div>
                 <CreateButton>Create a new category</CreateButton>
             </div>

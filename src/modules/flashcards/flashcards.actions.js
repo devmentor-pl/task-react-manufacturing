@@ -64,6 +64,8 @@ export const loadData = () => dispatch => {
             }
             return new Error('something went wrong')
         })
-        .then(data => dispatch(setData(data || [])))
+        .then(data => {
+            console.log(data)
+            dispatch(setData(data || []))})
         .catch(err => console.log(err))
 }
