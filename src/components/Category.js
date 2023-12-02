@@ -30,6 +30,7 @@ const Category = ({ item }) => {
             {isDeletePopupActive &&
                 <Popup>
                     <DeleteSection
+                        name='category'
                         setIsDeletePopupActive={setIsDeletePopupActive}
                         deleteHandler={deleteHandler}
                     />

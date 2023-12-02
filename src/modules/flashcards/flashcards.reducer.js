@@ -1,13 +1,9 @@
 import { types } from '.'
 import { v4 as uuidv4 } from 'uuid';
-import { list } from '../../providers/categories';
 
 const initState = {
     categoryFormIsActive: false,
-    categories: [
-        { id: 1, name: 'Frontend', list },
-        { id: 2, name: 'Backend', list: [] }
-    ]
+    categories: []
 }
 
 const reducer = (state = initState, action) => {
@@ -67,6 +63,11 @@ const reducer = (state = initState, action) => {
                 ...state,
                 categories: [...otherCategoryArr, newCurrentCategory]
             }
+            }
+        case types.SET_DATA:
+            return {
+                ...state,
+                categories: action.payload.data
             }
         default:
             return state

@@ -9,6 +9,7 @@ import { Popup, DeleteButton } from '.'
 const FlashcardForm = ({setPopupActive, category}) => {
     const [flashcardName, setFlashcardName] = useState('')
     const [definition, setDefinition] = useState('')
+
     const [error, setError] = useState()
 
     const dispatch = useDispatch()
@@ -32,8 +33,7 @@ const FlashcardForm = ({setPopupActive, category}) => {
         }
 
         const newItem = { id: uuidv4(), name: flashcardName, definition }
-        // console.log(newItem)
-        // console.log(category)
+        
         dispatch(addFlashcard(newItem, category))
         setPopupActive(false)
 

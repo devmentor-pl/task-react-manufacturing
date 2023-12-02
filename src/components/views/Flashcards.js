@@ -12,7 +12,7 @@ const Flashcards = () => {
 
     const [currentCategory] = categories.filter(c => c.name.toLowerCase() === category)
 
-    const { list: flashcards } = currentCategory
+    const { list: flashcards = [] } = currentCategory
     
     const renderFlashcards = () => {
         return flashcards.map((card, index) => <Flashcard
