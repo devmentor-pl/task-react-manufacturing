@@ -49,20 +49,24 @@ const reducer = (state = initState, action) => {
                 categories: [...otherCategoryArr, currentCategory]
             }
         case types.DELETE_FLASHCARD:
-            // const { id, category } = action.payload // nie mogę deklarować zmiennych o tej samej nazwie? Można to jakoś obejść?
+            // const { id, category } = action.payload // nie mogę deklarować zmiennych o tej samej nazwie, wrzuciłam poniższe do osobnego scope. czy tak jest poprawnie?
+            {
+                const { id, category } = action.payload
 
-            const currCategoryArr = [...state.categories].filter(cat => cat.name.toLowerCase() === action.payload.category)
-            const lastCategoryArr = [...state.categories].filter(cat => cat.name.toLowerCase() !== action.payload.category)
+                const currentCategoryArr = [...state.categories].filter(cat => cat.name.toLowerCase() === category)
+                const otherCategoryArr = [...state.categories].filter(cat => cat.name.toLowerCase() !== category)
 
-            const [currCategory] = currentCategoryArr
-            const { flashcardsList } = currentCategory
-            console.log(flashcardsList)
+                const [currentCategory] = currentCategoryArr
+                const { list } = currentCategory
 
-            // flashcardsList.filter
+                const newList = list.filter(item => item.id !== id)
+
+                const newCurrentCategory = { ...currentCategory, list: newList }
 
             return {
                 ...state,
-                categories: [...lastCategoryArr, currCategory]
+                categories: [...otherCategoryArr, newCurrentCategory]
+            }
             }
         default:
             return state

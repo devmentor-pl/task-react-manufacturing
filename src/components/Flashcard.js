@@ -4,7 +4,7 @@ import { CurrentFlashcard, DeleteButton, Popup, DeleteSection } from "."
 import { useDispatch } from "react-redux";
 import { deleteFlashcard } from "../modules/flashcards";
 
-const Flashcard = ({ item, index, flashcards }) => {
+const Flashcard = ({ item, index, flashcards, category }) => {
     const [cardActive, setCardActive] = useState(false)
     const [isDeletePopupActive, setIsDeletePopupActive] = useState(false)
 
@@ -16,8 +16,9 @@ const Flashcard = ({ item, index, flashcards }) => {
         setCardActive(true)
     }
 
-    const deleteHandler = (e) => {
-        dispatch(deleteFlashcard(id))
+    const deleteHandler = () => {
+        dispatch(deleteFlashcard(id, category))
+        setIsDeletePopupActive(false)
     }
 
     return (

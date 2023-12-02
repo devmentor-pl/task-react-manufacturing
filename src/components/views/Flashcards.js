@@ -19,6 +19,7 @@ const Flashcards = () => {
             key={card.id}
             item={card}
             index={index}
+            category={category}
             flashcards={flashcards}
         />)
     }

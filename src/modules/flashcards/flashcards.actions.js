@@ -31,6 +31,6 @@ export const addFlashcard = (item, category) => {
 export const deleteFlashcard = (id, category) => {
     return {
         type: types.DELETE_FLASHCARD,
-        payload: { id }
+        payload: { id, category }
     }
 }
