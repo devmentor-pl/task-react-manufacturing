@@ -1,9 +1,9 @@
 .DeleteButton {
     position: absolute;
-    top: 5px;
-    right: 7px;
+    top: 2%;
+    right: 3%;
     transform: rotate(45deg);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #535c68;
     background-color: transparent;
     border: none;
@@ -13,5 +13,5 @@
 
 .DeleteButton:hover {
     color: black;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }

@@ -4,9 +4,8 @@ import '../styles/CurrentFlashcard.css'
 import '../styles/Button.css'
 import DeleteButton from "./DeleteButton";
 
-const CurrentFlashcard = ({ item, setCardActive, index, flashcards }) => {
+const CurrentFlashcard = ({ setCardActive, index, flashcards }) => {
     const [definitionActive, setDefinitionActive] = useState(false)
-    // const [currentCard, setCurrentCard] = useState(item)
     const [currentCardIndex, setCurrentCardIndex] = useState(index)
 
     const { name, definition } = flashcards[currentCardIndex]
@@ -15,16 +14,15 @@ const CurrentFlashcard = ({ item, setCardActive, index, flashcards }) => {
         setDefinitionActive(state => !state)
     }
 
-    const arrowHandler = (sign) => {
+    const arrowHandler = sign => {
         if (sign === '<') {
             setCurrentCardIndex(state => state - 1)
         }
         if (sign === '>') {
             setCurrentCardIndex(state => state + 1)
         }
-
+        setDefinitionActive(false)
     }
-    console.log(flashcards[index + 1])
 
     return (
         <Popup>

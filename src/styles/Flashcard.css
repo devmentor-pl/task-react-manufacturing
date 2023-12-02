@@ -4,6 +4,7 @@
     align-items: center;
     flex-basis: 150px;
     min-height: 100px;
+    position: relative;
     padding: 20px;
     border: 1px solid #95afc0;
     border-radius: 10px;
@@ -22,6 +23,8 @@
     font-size: 0.9rem;
     /* background-color: rgb(106, 51, 155); */
 }
+
+
 
 /* 
 @keyframes turn {
