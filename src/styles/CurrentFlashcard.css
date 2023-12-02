@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.CurrentFlashcard__name{
+.CurrentFlashcard__name {
     margin-bottom: 20px;
     font-size: 1.2rem;
 }
@@ -33,6 +33,7 @@
 .CurrentFlashcard__arrow--left {
     left: -80px;
 }
+
 .CurrentFlashcard__arrow--right {
     right: -80px;
 }

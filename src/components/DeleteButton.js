@@ -7,11 +7,13 @@ const DeleteButton = ({buttonId, setIsDeletePopupActive, setPopupActive}) => {
     const dispatch = useDispatch()
     
 
-    const clickHandler = () => {
+    const clickHandler = (e) => {
+        e.stopPropagation()
+
         if (buttonId === 'CategoryForm') {
             dispatch(setInactiveCategoryForm()) 
         }
-        if (buttonId==="Category") {
+        if (buttonId === "Category" || buttonId === 'Flashcard') {
             setIsDeletePopupActive(true)
         }
         if (buttonId === "FlashcardForm" || buttonId === "CurrentFlashcard") {

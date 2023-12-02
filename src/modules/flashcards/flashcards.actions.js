@@ -28,7 +28,7 @@ export const addFlashcard = (item, category) => {
         payload: { item, category }
     }
 }
-export const deleteFlashcard = id => {
+export const deleteFlashcard = (id, category) => {
     return {
         type: types.DELETE_FLASHCARD,
         payload: { id }

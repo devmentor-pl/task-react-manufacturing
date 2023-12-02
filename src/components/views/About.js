@@ -19,7 +19,7 @@ const About = () => {
                     <p>
                         If you want to check the current categories:
                     </p>
-                    <p>go to <Link className="About__link" to="/categories">Your categories</Link></p>
+                    <p>go to <Link className="About__link" to="/categories">Your flashcards</Link></p>
                 </li>
                 <li>
                     <p>

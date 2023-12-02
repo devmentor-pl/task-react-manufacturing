@@ -10,6 +10,7 @@ import Popup from "./Popup";
 import Flashcard from "./Flashcard";
 import FlashcardForm from "./FlashcardForm";
 import CurrentFlashcard from "./CurrentFlashcard";
+import DeleteSection from "./DeleteSection";
 
 export {
     Header,
@@ -23,5 +24,6 @@ export {
     Popup,
     Flashcard,
     FlashcardForm,
-    CurrentFlashcard
+    CurrentFlashcard,
+    DeleteSection
 }

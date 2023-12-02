@@ -44,11 +44,25 @@ const reducer = (state = initState, action) => {
 
             list.push(item)
 
-            console.log(otherCategoryArr)
+            return {
+                ...state,
+                categories: [...otherCategoryArr, currentCategory]
+            }
+        case types.DELETE_FLASHCARD:
+            // const { id, category } = action.payload // nie mogę deklarować zmiennych o tej samej nazwie? Można to jakoś obejść?
+
+            const currCategoryArr = [...state.categories].filter(cat => cat.name.toLowerCase() === action.payload.category)
+            const lastCategoryArr = [...state.categories].filter(cat => cat.name.toLowerCase() !== action.payload.category)
+
+            const [currCategory] = currentCategoryArr
+            const { flashcardsList } = currentCategory
+            console.log(flashcardsList)
+
+            // flashcardsList.filter
 
             return {
-                    ...state,
-                categories: [...otherCategoryArr, currentCategory]
+                ...state,
+                categories: [...lastCategoryArr, currCategory]
             }
         default:
             return state
