@@ -1,0 +1,28 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.About__link {
+    color: rgb(92, 171, 245);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.About__list {
+    margin-left:20px;
+    list-style: square;
+}
+
+.About__item {
+    padding-top: 10px ;
+}
+
+.About__heading {
+    margin: 0 20px;
+    text-align: center;
+}

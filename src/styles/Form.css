@@ -1,0 +1,54 @@
+.Form__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Form__label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+}
+
+.Form__input {
+    margin-top: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 50px;
+    border: 1px solid #95afc0;
+    text-align: left;
+}
+
+.Form__input--textarea {
+    border-radius: 20px;
+    height: 100px;
+    resize: vertical;
+}
+
+.Form__input--submit {
+    width: 100%;
+    padding: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #95afc0;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.Form__input--submit:hover {
+    background-color: #778c99;
+}
+
+.Form__error {
+    font-size: 0.8rem;
+    color: red
+}

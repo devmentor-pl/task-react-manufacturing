@@ -1,0 +1,34 @@
+.NavButton {
+    position: fixed;
+    top:20px;
+    left:20px;
+    display: inline-block;
+    cursor: pointer;
+    z-index:2
+}
+
+.NavButton__bar {
+    width: 35px;
+    height: 5px;
+    background-color: #535C68;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.NavButton--clicked .NavButton__bar--bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.NavButton--clicked .NavButton__bar--bar2 {
+    opacity: 0;
+}
+
+.NavButton--clicked .NavButton__bar--bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+@media (width > 600px) {
+    .NavButton {
+       display: none
+    }
+} 
