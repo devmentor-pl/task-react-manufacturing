@@ -30,8 +30,14 @@ function App() {
 		<Router>
 			<Wrapper>
 				<Header />
-				{navIsActive && <Nav />}
-				{<NavButton navIsActive={navIsActive} setNavIsActive={setNavIsActive}/>}
+				{<Nav 
+				navIsActive={navIsActive}
+				setNavIsActive={setNavIsActive}
+				
+				/>}
+				{<NavButton
+					navIsActive={navIsActive}
+					setNavIsActive={setNavIsActive} />}
 				<Switch>
 					<Route exact path='/'>
 						<Home />

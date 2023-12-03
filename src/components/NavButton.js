@@ -3,15 +3,12 @@ import '../styles/NavButton.css'
 
 const NavButton = ({ navIsActive, setNavIsActive }) => {
 
-
     const clickHandler = () => {
-        console.log('test')
         setNavIsActive(state=>!state)
-        // e.target.classList.toggle('NavButton--clicked')
     }
 
     return (
-        <div className={navIsActive ? "NavButton NavButton--clicked" : "NavButton "} onClick={clickHandler}>
+        <div className={navIsActive ? "NavButton NavButton--clicked" : "NavButton"} onClick={clickHandler}>
             <div className="NavButton__bar NavButton__bar--bar1"></div>
             <div className="NavButton__bar NavButton__bar--bar2"></div>
             <div className="NavButton__bar NavButton__bar--bar3"></div>

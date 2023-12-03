@@ -4,6 +4,7 @@
     left:20px;
     display: inline-block;
     cursor: pointer;
+    z-index:2
 }
 
 .NavButton__bar {
@@ -14,17 +15,20 @@
     transition: 0.4s;
 }
 
-/* Rotate first bar */
 .NavButton--clicked .NavButton__bar--bar1 {
     transform: translate(0, 11px) rotate(-45deg);
 }
 
-/* Fade out the second bar */
 .NavButton--clicked .NavButton__bar--bar2 {
     opacity: 0;
 }
 
-/* Rotate last bar */
 .NavButton--clicked .NavButton__bar--bar3 {
     transform: translate(0, -11px) rotate(45deg);
 }
+
+@media (width > 600px) {
+    .NavButton {
+       display: none
+    }
+} 
