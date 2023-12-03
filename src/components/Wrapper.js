@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/Wrapper.css'
 
-const Wrapper = (props) => {
+const Wrapper = props => {
 
     return (
         <div className="Wrapper">

@@ -28,8 +28,7 @@ const Flashcard = ({ item, index, flashcards, category }) => {
                 <DeleteButton
                     buttonId="Flashcard"
                     itemId={id}
-                    setIsDeletePopupActive={setIsDeletePopupActive}
-                />
+                    setIsDeletePopupActive={setIsDeletePopupActive} />
             </div>
             {cardActive && <CurrentFlashcard
                 setCardActive={setCardActive}
@@ -41,8 +40,7 @@ const Flashcard = ({ item, index, flashcards, category }) => {
                     <DeleteSection
                         name="flashcard"
                         setIsDeletePopupActive={setIsDeletePopupActive}
-                        deleteHandler={deleteHandler}
-                    />
+                        deleteHandler={deleteHandler} />
                 </Popup>
             }
         </>

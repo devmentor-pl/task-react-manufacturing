@@ -25,7 +25,8 @@ function App() {
 		}
 		dispatch(sendData(categories))
 	//wylączyłam StrictMode, ponieważ wykonywał mi się ten dispatch rownież za pierwszym razem. A chcę tutaj tylko jeden raz nie aktualizować firebase.
-	}, [categories, dispatch]);
+	}, [categories, dispatch])
+
 	return (
 		<Router>
 			<Wrapper>
@@ -33,7 +34,6 @@ function App() {
 				{<Nav 
 				navIsActive={navIsActive}
 				setNavIsActive={setNavIsActive}
-				
 				/>}
 				{<NavButton
 					navIsActive={navIsActive}

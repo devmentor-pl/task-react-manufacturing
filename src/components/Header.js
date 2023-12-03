@@ -5,7 +5,7 @@ const Header = () => {
 
     return (
         <header className="Header">
-            <h1 className="Header__heading">Flashboards creator </h1>
+            <h1 className="Header__heading">Flashboards creator</h1>
         </header>
     )
 }

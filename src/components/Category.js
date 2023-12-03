@@ -24,16 +24,14 @@ const Category = ({ item }) => {
                 <DeleteButton
                     buttonId="Category"
                     itemId={id}
-                    setIsDeletePopupActive={setIsDeletePopupActive}
-                />
+                    setIsDeletePopupActive={setIsDeletePopupActive} />
             </div>
             {isDeletePopupActive &&
                 <Popup>
                     <DeleteSection
                         name='category'
                         setIsDeletePopupActive={setIsDeletePopupActive}
-                        deleteHandler={deleteHandler}
-                    />
+                        deleteHandler={deleteHandler} />
                 </Popup>
             }
         </>

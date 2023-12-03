@@ -4,11 +4,8 @@ import '../../styles/Home.css'
 import { useSelector } from "react-redux";
 import { Link } from 'react-router-dom';
 
-
-
 const Home = () => {
     const { categoryFormIsActive } = useSelector(state => state.flashcards)
-
 
     return (<>
         <section className="Home">
@@ -19,7 +16,6 @@ const Home = () => {
             </div>
         </section>
         {categoryFormIsActive && <CategoryForm />}
-
     </>
     )
 }

@@ -59,7 +59,6 @@ const FlashcardForm = ({setPopupActive, category}) => {
                         type="text" />
                 </label>
                 {error && <p className="Form__error">{error}</p>}
-
                 <label className="Form__label--submit">
                     <input
                         type="submit"

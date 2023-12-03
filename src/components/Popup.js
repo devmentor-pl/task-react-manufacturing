@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/Popup.css'
 
-const Popup = (props) => {
+const Popup = props => {
     
     return (
         <div className="Popup">
