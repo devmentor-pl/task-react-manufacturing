@@ -1,26 +1,70 @@
+# Getting Started with Create React App
 
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-&nbsp;
+## Available Scripts
 
+In the project directory, you can run:
 
-# React: Wytwarzanie
+### `npm start`
 
-W tym module czeka Cię zaplanowanie i zbudowanie **własnej aplikacji od zera**. Być może masz już pomysł, a może któryś z Twoich znajomych potrzebuje jakiegoś narzędzia.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Nie musi to być przełomowy produkt, którego nikt nigdy nie wymyślił. Inspiruj się już istniejącymi rozwiązaniami i dodaj do nich elementy, których Twoim zdaniem zawsze im brakowało.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Niech ten projekt będzie Twoją wizytówką i **oddaje to, czym chciał(a)byś się zajmować**. Jeśli wolisz tworzyć strony internetowe – zakoduj taką, wykorzystując Reacta, Reduxa i np. CMS. Jeżeli marzą Ci się aplikacje internetowe – zadbaj o UX i jak najlepsze działanie we wszystkich rozdzielczościach.
+### `npm test`
 
-Postaraj się przejść cały proces – od stworzenia MVP, przez zaprojektowanie warstwy graficznej, po zaplanowanie całego procesu kodowania i deploy. Napisanie testów na pewno będzie dużym atutem.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-🎬 Nie wiesz, od czego zacząć? Obejrzyj moje wideo *[Jakie projekty warto robić, aby wyróżnić się na tle konkurencji?](https://devmentor.pl/b/jakie-projekty-warto-robic-aby-wyroznic-sie-na-tle-konkurencji)*.
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-&nbsp;
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

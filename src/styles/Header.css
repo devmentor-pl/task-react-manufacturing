@@ -1,0 +1,15 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 20px;
+    background-color: #dff9fb;
+}
+
+.Header__heading {
+    width: 70%;
+    text-align: center;
+    color: #535c68;
+}

@@ -1,0 +1,16 @@
+.Category {
+    position:relative;
+    padding: 50px;
+    border: 1px solid #95afc0;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index:0
+}
+
+.Category:hover {
+    background-color: #DFF9FB
+}
+
+.Category__name {
+    text-transform: uppercase;
+}
