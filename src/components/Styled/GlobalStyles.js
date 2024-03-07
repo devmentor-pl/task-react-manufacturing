@@ -12,6 +12,8 @@ const GlobalStyles = createGlobalStyle`
    --main-color-dark: #05494A;
 
    --transition: all 0.5s;
+
+   --max-width: 1500px;
 }
 
 body{

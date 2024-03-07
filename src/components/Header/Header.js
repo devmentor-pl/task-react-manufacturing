@@ -5,8 +5,8 @@ import Navbar from '../Navigation/Navbar';
 const Header = () => {
   return (
     <StyledHeader>
-      <h1>Hello world</h1>
       <Navbar />
+      <h1>Hello world</h1>
     </StyledHeader>
   );
 };

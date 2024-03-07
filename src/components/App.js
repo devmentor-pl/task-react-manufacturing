@@ -6,6 +6,10 @@ export default class App extends React.Component {
     return (
       <>
         <Header />
+        <h1 style={{ height: '50vh' }}>Main section</h1>
+        <h1 style={{ height: '30vh', backgroundColor: 'rebeccapurple' }}>
+          Footer section
+        </h1>
       </>
     );
   }
