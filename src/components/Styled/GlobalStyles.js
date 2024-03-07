@@ -13,7 +13,7 @@ const GlobalStyles = createGlobalStyle`
 
    --transition: all 0.5s;
 
-   --max-width: 1500px;
+   --max-width: 1700px;
 }
 
 body{

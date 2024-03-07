@@ -14,19 +14,19 @@ const Navbar = () => {
     <>
       <StyledNavbar open={isNavOpen}>
         {isNavOpen ? (
-          <CloseIcon onClick={toggleNav} />
+          <CloseIcon className="navbar__toggle-icon" onClick={toggleNav} />
         ) : (
-          <HamburgerIcon onClick={toggleNav} />
+          <HamburgerIcon className="navbar__toggle-icon" onClick={toggleNav} />
         )}
-        <div>
-          <a href="#">
-            <span>00. </span>About
+        <div className="navbar__links">
+          <a className="navbar__link" href="#">
+            <span className="navbar__link-prefix">00.</span>About
           </a>
-          <a href="#">
-            <span>01. </span>Projects
+          <a className="navbar__link" href="#">
+            <span className="navbar__link-prefix">01.</span>Projects
           </a>
-          <a href="#">
-            <span>02. </span>Contact
+          <a className="navbar__link" href="#">
+            <span className="navbar__link-prefix">02.</span>Contact
           </a>
         </div>
       </StyledNavbar>
