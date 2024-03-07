@@ -6,6 +6,7 @@ const StyledHeader = styled.header`
   height: 100vh;
   margin: 0 auto;
   .header__content {
+    padding-top: 10rem;
   }
   .header__title {
   }
