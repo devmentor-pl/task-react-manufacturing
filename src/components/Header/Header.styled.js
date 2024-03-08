@@ -2,19 +2,38 @@ import styled from 'styled-components';
 import { media } from '../Styled/mediaqueries';
 
 const StyledHeader = styled.header`
-  max-width: var(--max-width);
   background-color: var(--color-main-background);
   color: var(--font-main-white);
   height: 100vh;
   margin: 0 auto;
   padding: 0 5rem;
   box-sizing: border-box;
-  display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: start;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  .header__interactive-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    ${media.tablet`
+      /* Adjustments for tablet size */
+      pointer-events: none; /* Example: hide the canvas on tablet */
+    `}
+
+    ${media.mobile`
+      /* Adjustments for mobile size */
+      pointer-events: none; /* Example: hide the canvas on mobile */
+    `}
+  }
 
   .header__content {
+    max-width: var(--max-width);
+    margin: 0 auto;
     padding-top: 10rem;
   }
 
@@ -24,6 +43,7 @@ const StyledHeader = styled.header`
   .header__description,
   .header__link {
     transition: var(--transition);
+    width: 100%;
   }
 
   .header__title {

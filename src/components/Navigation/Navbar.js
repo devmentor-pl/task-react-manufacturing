@@ -7,7 +7,8 @@ const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const navbarRef = useRef();
 
-  const toggleNav = () => {
+  const toggleNav = (e) => {
+    e.preventDefault();
     setIsNavOpen(!isNavOpen);
   };
 
