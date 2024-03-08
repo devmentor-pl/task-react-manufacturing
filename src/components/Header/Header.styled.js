@@ -21,13 +21,11 @@ const StyledHeader = styled.header`
     height: 100vh;
     z-index: -1;
     ${media.tablet`
-      /* Adjustments for tablet size */
-      pointer-events: none; /* Example: hide the canvas on tablet */
+      pointer-events: none;
     `}
 
     ${media.mobile`
-      /* Adjustments for mobile size */
-      pointer-events: none; /* Example: hide the canvas on mobile */
+      pointer-events: none;
     `}
   }
 

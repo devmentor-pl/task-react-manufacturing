@@ -7,7 +7,6 @@ const InteractiveCanvas = () => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
 
-    // Initialize canvas dimensions
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
@@ -28,16 +27,15 @@ const InteractiveCanvas = () => {
     function getNumberOfPoints() {
       const screenWidth = window.innerWidth;
       if (screenWidth <= breakpoints.mobile) {
-        return 35; // Fewer points for mobile
+        return 35;
       } else if (screenWidth <= breakpoints.tablet) {
-        return 55; // Fewer points for tablet
+        return 55;
       } else {
-        return 100; // Default number of points for desktop
+        return 100;
       }
     }
 
     function createPoints() {
-      // Clear existing points before creating new ones
       points = [];
       const numberOfPoints = getNumberOfPoints();
       for (let i = 0; i < numberOfPoints; i++) {
@@ -81,26 +79,23 @@ const InteractiveCanvas = () => {
       ) {
         points.push(new Point(x, y));
         drawLines();
-        points.pop(); // Remove the point after drawing
+        points.pop();
       }
     };
 
-    // Event listener to handle window resize
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-      createPoints(); // Recreate points for the new dimensions
-      drawLines(); // Redraw lines with updated points
+      createPoints();
+      drawLines();
     };
 
     window.addEventListener('mousemove', handleMouseMoveGlobal);
     window.addEventListener('resize', handleResize);
 
-    // Initial points creation and drawing
     createPoints();
     drawLines();
 
-    // Cleanup function to remove event listeners
     return () => {
       window.removeEventListener('mousemove', handleMouseMoveGlobal);
       window.removeEventListener('resize', handleResize);
