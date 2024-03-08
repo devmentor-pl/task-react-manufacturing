@@ -3,7 +3,7 @@ import { media } from '../Styled/mediaqueries';
 
 const StyledHeader = styled.header`
   max-width: var(--max-width);
-  background-color: rgba(26, 26, 32, 0.85);
+  background-color: var(--color-main-background);
   color: var(--font-main-white);
   height: 100vh;
   margin: 0 auto;
@@ -63,7 +63,7 @@ const StyledHeader = styled.header`
     border-radius: 5px;
     text-decoration: none;
     font-size: 1.5rem;
-    transition: background-color 0.3s ease;
+    transition: var(--transition) ease;
     border: 2px solid var(--main-color-blue);
 
     &:hover {
@@ -71,8 +71,7 @@ const StyledHeader = styled.header`
       border-color: var(--main-color-blue);
 
       .header__link--icon {
-        filter: invert(41%) sepia(22%) saturate(2756%) hue-rotate(142deg)
-          brightness(94%) contrast(88%);
+        filter: var(--icon-color-blue);
       }
     }
   }
@@ -90,7 +89,7 @@ const StyledHeader = styled.header`
     }
   }
 
-  ${media.small`
+  ${media.mobile`
     padding: 1rem 2rem;
     .header__title {
       font-size: 2.5rem;

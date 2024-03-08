@@ -7,17 +7,17 @@ const breakpoints = {
 };
 
 export const media = {
-  small: (...args) => css`
+  mobile: (...args) => css`
     @media (max-width: ${breakpoints.small}) {
       ${css(...args)}
     }
   `,
-  medium: (...args) => css`
+  tablet: (...args) => css`
     @media (max-width: ${breakpoints.medium}) {
       ${css(...args)}
     }
   `,
-  large: (...args) => css`
+  desktop: (...args) => css`
     @media (max-width: ${breakpoints.large}) {
       ${css(...args)}
     }

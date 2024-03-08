@@ -6,7 +6,7 @@ const StyledNavbar = styled.nav`
   width: 100%;
   font-size: 2rem;
   box-sizing: border-box;
-  background-color: rgba(26, 26, 32, 0.55);
+  background-color: var(--color-navbar-background);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   color: var(--font-main-white);
@@ -16,7 +16,7 @@ const StyledNavbar = styled.nav`
   right: 0;
   z-index: 1000;
 
-  ${media.small`
+  ${media.mobile`
   background-color: transparent;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
@@ -37,19 +37,17 @@ const StyledNavbar = styled.nav`
     position: fixed;
     top: 1rem;
     right: 1rem;
-    filter: invert(69%) sepia(11%) saturate(0%) hue-rotate(136deg)
-      brightness(94%) contrast(93%);
+    filter: var(--icon-color-gray);
     z-index: 2;
     width: 40px;
     height: 40px;
     transition: var(--transition), transform 0.3s ease;
-    ${media.small`
+    ${media.mobile`
       display: block;
     `}
 
     &:hover {
-      filter: invert(30%) sepia(95%) saturate(3500%) hue-rotate(150deg)
-        brightness(100%) contrast(97%);
+      filter: var(--icon-color-blue);
       transform: rotate(15deg);
     }
   }
@@ -60,12 +58,12 @@ const StyledNavbar = styled.nav`
     gap: 2.5rem;
     align-items: center;
     font-size: 1rem;
-    transition: transform 0.5s ease-in-out;
+    transition: var(--transition) ease-in-out;
     transform: translateX(0%);
     opacity: 1;
     visibility: visible;
 
-    ${media.small`
+    ${media.mobile`
       flex-direction: column;
       justify-content: flex-start;
       position: fixed;
@@ -74,7 +72,7 @@ const StyledNavbar = styled.nav`
       right: 0;
       height: 100vh;
       width: 40vw;
-      background-color: rgba(26, 26, 32, 0.55);
+      background-color: var(--color-navbar-background);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
       z-index: 1;
