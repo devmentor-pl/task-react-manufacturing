@@ -2,8 +2,6 @@ import styled from 'styled-components';
 import { media } from '../Styled/mediaqueries';
 
 const StyledNavbar = styled.nav`
-  display: flex;
-  justify-content: flex-end;
   padding: 1rem 5rem;
   width: 100%;
   font-size: 2.5rem;
@@ -24,10 +22,21 @@ const StyledNavbar = styled.nav`
   -webkit-backdrop-filter: none;
     `}
 
+  .navbar__container {
+    max-width: var(--max-width);
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
   .navbar__toggle-icon {
     display: none;
     cursor: pointer;
     position: fixed;
+    top: 1rem;
+    right: 1rem;
     filter: invert(69%) sepia(11%) saturate(0%) hue-rotate(136deg)
       brightness(94%) contrast(93%);
     z-index: 2;
@@ -64,6 +73,7 @@ const StyledNavbar = styled.nav`
       top: 0;
       right: 0;
       height: 100vh;
+      width: 50vw;
       background-color: rgba(26, 26, 32, 0.55);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
