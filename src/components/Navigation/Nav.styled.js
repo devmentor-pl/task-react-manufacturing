@@ -4,13 +4,13 @@ import { media } from '../Styled/mediaqueries';
 const StyledNavbar = styled.nav`
   padding: 1rem 5rem;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 2rem;
   box-sizing: border-box;
   background-color: rgba(26, 26, 32, 0.55);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   color: var(--font-main-white);
-  height: 7rem;
+  height: 5rem;
   position: fixed;
   left: 0;
   right: 0;
@@ -73,7 +73,7 @@ const StyledNavbar = styled.nav`
       top: 0;
       right: 0;
       height: 100vh;
-      width: 50vw;
+      width: 40vw;
       background-color: rgba(26, 26, 32, 0.55);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
@@ -95,7 +95,7 @@ const StyledNavbar = styled.nav`
     position: relative;
     color: var(--font-main-white);
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     transition: var(--transition);
     padding-bottom: 0.5rem;
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import StyledHeader from './Header.styled';
 import Navbar from '../Navigation/Navbar';
+import { ReactComponent as GitHub } from '../../icons/Github.svg';
 
 const Header = () => {
   return (
@@ -22,7 +23,7 @@ const Header = () => {
           href="https://github.com/Maciejnecka"
           type="button"
         >
-          Check out my GitHub
+          Check out my GitHub <GitHub className="header__link--icon" />
         </a>
       </div>
     </StyledHeader>
