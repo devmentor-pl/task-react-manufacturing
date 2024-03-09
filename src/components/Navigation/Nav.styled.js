@@ -4,7 +4,6 @@ import { media } from '../Styled/mediaqueries';
 const StyledNavbar = styled.nav`
   padding: 1rem 5rem;
   width: 100%;
-  font-size: 2rem;
   box-sizing: border-box;
   background-color: var(--color-navbar-background);
   backdrop-filter: blur(10px);
@@ -15,6 +14,11 @@ const StyledNavbar = styled.nav`
   left: 0;
   right: 0;
   z-index: 1000;
+
+  ${media.tablet`
+  height: 4rem;
+  padding: 1rem 1.5rem;
+    `}
 
   ${media.mobile`
   background-color: transparent;
@@ -57,21 +61,27 @@ const StyledNavbar = styled.nav`
     display: flex;
     gap: 2.5rem;
     align-items: center;
-    font-size: 1rem;
     transition: var(--transition) ease-in-out;
     transform: translateX(0%);
     opacity: 1;
     visibility: visible;
 
+    ${media.tablet`
+      gap: 1.5rem;
+      
+    `}
+
     ${media.mobile`
       flex-direction: column;
       justify-content: flex-start;
+      align-items: stretch;
       position: fixed;
-      padding: 1rem 2rem;
+      padding: 1rem 2.5rem;
+      gap: 2.5rem;
       top: 0;
       right: 0;
       height: 100vh;
-      width: 40vw;
+      min-width: min-content;
       background-color: var(--color-navbar-background);
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px);
@@ -93,9 +103,18 @@ const StyledNavbar = styled.nav`
     position: relative;
     color: var(--font-main-white);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     transition: var(--transition);
     padding-bottom: 0.5rem;
+
+    ${media.tablet`
+      font-size: 1.5rem
+
+    `}
+
+    ${media.mobile`
+      font-size: 1.3rem
+    `}
 
     &::after {
       content: '';
