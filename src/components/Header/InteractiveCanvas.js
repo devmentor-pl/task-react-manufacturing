@@ -31,7 +31,7 @@ const InteractiveCanvas = () => {
       } else if (screenWidth <= breakpoints.tablet) {
         return 55;
       } else {
-        return 100;
+        return 120;
       }
     }
 
@@ -83,15 +83,25 @@ const InteractiveCanvas = () => {
       }
     };
 
+    function checkAndApplyInteraction() {
+      const enableInteraction = window.innerWidth > breakpoints.mobile;
+      if (enableInteraction) {
+        window.addEventListener('mousemove', handleMouseMoveGlobal);
+      } else {
+        window.removeEventListener('mousemove', handleMouseMoveGlobal);
+      }
+    }
+
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
       createPoints();
       drawLines();
+      checkAndApplyInteraction();
     };
 
-    window.addEventListener('mousemove', handleMouseMoveGlobal);
     window.addEventListener('resize', handleResize);
+    checkAndApplyInteraction();
 
     createPoints();
     drawLines();

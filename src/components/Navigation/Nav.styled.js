@@ -9,14 +9,14 @@ const StyledNavbar = styled.nav`
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   color: var(--font-main-white);
-  height: 5rem;
+  height: 6rem;
   position: fixed;
   left: 0;
   right: 0;
   z-index: 1000;
 
   ${media.tablet`
-  height: 4rem;
+  height: 5rem;
   padding: 1rem 1.5rem;
     `}
 
@@ -103,7 +103,7 @@ const StyledNavbar = styled.nav`
     position: relative;
     color: var(--font-main-white);
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 2rem;
     transition: var(--transition);
     padding-bottom: 0.5rem;
 

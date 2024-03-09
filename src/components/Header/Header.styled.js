@@ -4,7 +4,7 @@ import { media } from '../Styled/mediaqueries';
 const StyledHeader = styled.header`
   background-color: var(--color-main-background);
   color: var(--font-main-white);
-  min-height: 500px;
+  min-height: 100vh;
   height: 100vh;
   margin: 0 auto;
   padding: 0 5rem;
@@ -64,12 +64,20 @@ const StyledHeader = styled.header`
   .header__title {
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
+
+    ${media.tablet`
+    font-size: 3rem;
+      `}
   }
 
   .header__name {
     font-size: 4.5rem;
     color: var(--main-color-blue);
     margin-bottom: 1.5rem;
+
+    ${media.tablet`
+    font-size: 4rem;
+      `}
   }
 
   .header__profession {
