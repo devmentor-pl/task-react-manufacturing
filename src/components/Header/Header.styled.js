@@ -49,6 +49,7 @@ const StyledHeader = styled.header`
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    padding-top: 8rem;
       `}
   }
 
@@ -131,6 +132,11 @@ const StyledHeader = styled.header`
     transition: all 0.3s ease;
     padding-left: 0.75rem;
 
+    ${media.mobile`
+    width: 28px;
+    height: 28px;
+    `}
+
     .header__link:hover & {
       fill: var(--font-main-white);
     }
@@ -139,19 +145,19 @@ const StyledHeader = styled.header`
   ${media.mobile`
     padding: 1rem 2rem;
     .header__title {
-      font-size: 2.5rem;
-    }
-    .header__name {
-      font-size: 3rem;
-    }
-    .header__profession {
       font-size: 2rem;
     }
+    .header__name {
+      font-size: 2.2rem;
+    }
+    .header__profession {
+      font-size: 1.75rem;
+    }
     .header__description {
-      font-size: 1rem;
+      font-size: 1.1rem;
     }
     .header__link {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
   `}
 `;

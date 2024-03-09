@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const navbarRef = useRef();
 
-  const toggleNav = (e) => {
+  const handleToggleNav = (e) => {
     e.preventDefault();
     setIsNavOpen(!isNavOpen);
   };
@@ -22,6 +22,7 @@ const Navbar = () => {
         setIsNavOpen(false);
       }
     };
+
     document.addEventListener('mousedown', handleClickOutside);
 
     return () => {
@@ -35,15 +36,17 @@ const Navbar = () => {
         {isNavOpen ? (
           <CloseIcon
             aria-label="Close navigation"
+            tabIndex="0"
             className="navbar__toggle-icon"
-            onClick={toggleNav}
+            onClick={handleToggleNav}
             role="button"
           />
         ) : (
           <HamburgerIcon
             aria-label="Open navigation"
+            tabIndex="0"
             className="navbar__toggle-icon"
-            onClick={toggleNav}
+            onClick={handleToggleNav}
             role="button"
           />
         )}
