@@ -69,7 +69,7 @@ const StyledAboutMe = styled.section`
     max-width: 40vw;
     line-height: 1.6;
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 
     ${media.tablet`
     font-size: 1.3rem;
@@ -106,11 +106,15 @@ const StyledAboutMe = styled.section`
     height: auto;
     border-radius: 10px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    border: 3px solid var(--color-main-background);
     transition: var(--transition);
+    filter: grayscale(40%) brightness(95%);
 
     &:hover {
-      transform: scale(1.03);
+      transform: scale(0.95);
       box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+      border: 3px solid var(--main-color-blue);
+      filter: grayscale(0%) brightness(100%);
     }
 
     ${media.mobile`
