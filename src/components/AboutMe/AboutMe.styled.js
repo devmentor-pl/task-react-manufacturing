@@ -23,6 +23,7 @@ const StyledAboutMe = styled.section`
     color: var(--main-color-blue);
     font-weight: bold;
     font-size: 4rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 3rem;
 
     ${media.tablet`
@@ -54,6 +55,7 @@ const StyledAboutMe = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 
     ${media.tablet`
       font-size: 1.2rem;
@@ -68,8 +70,11 @@ const StyledAboutMe = styled.section`
   .aboutme__paragraph {
     max-width: 40vw;
     line-height: 1.6;
+    padding: 1rem;
     text-align: left;
     font-size: 1.8rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
 
     ${media.tablet`
     font-size: 1.3rem;
@@ -108,7 +113,7 @@ const StyledAboutMe = styled.section`
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
     border: 3px solid var(--color-main-background);
     transition: var(--transition);
-    filter: grayscale(40%) brightness(95%);
+    filter: grayscale(35%) brightness(95%);
 
     &:hover {
       transform: scale(0.95);
