@@ -6,15 +6,15 @@ const StyledAboutMe = styled.section`
   color: var(--font-main-white);
   padding: 3rem 5rem;
   box-sizing: border-box;
-  position: relative;
   min-height: 50vh;
+  margin: 0 auto;
 
   ${media.tablet`
     padding: 5rem 2rem;
   `}
 
   ${media.mobile`
-    padding: 5rem 1rem;
+    padding: 2rem 1rem;
   `}
 
   .aboutme__title {
@@ -23,15 +23,16 @@ const StyledAboutMe = styled.section`
     color: var(--main-color-blue);
     font-weight: bold;
     font-size: 4rem;
-    margin-bottom: 2rem;
-    text-decoration: underline;
+    margin-bottom: 3rem;
 
     ${media.tablet`
       font-size: 2.5rem;
     `}
 
     ${media.mobile`
-      font-size: 2rem;
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+
     `}
   }
 
@@ -39,8 +40,12 @@ const StyledAboutMe = styled.section`
     max-width: var(--max-width);
     margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+
+    ${media.mobile`
+      flex-direction: column-reverse;
+      align-items: center;
+    `}
   }
 
   .aboutme__text {
@@ -51,27 +56,48 @@ const StyledAboutMe = styled.section`
     justify-content: center;
 
     ${media.tablet`
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     `}
 
     ${media.mobile`
       font-size: 1.1rem;
+      order: 1;
     `}
   }
 
   .aboutme__paragraph {
-    max-width: 30vw;
+    max-width: 40vw;
     line-height: 1.6;
     text-align: left;
     font-size: 1.4rem;
+
+    ${media.tablet`
+    font-size: 1.3rem;
+    line-height: 1.5;
+    `}
+
+    ${media.mobile`
+    font-size: 1.1rem;
+    max-width: 90vw
+    `}
   }
 
   .aboutme__image {
     position: relative;
     margin-top: 2rem;
-    width: 60%;
+    width: 50%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+
+    ${media.tablet`
+    max-width: 50%
+    `}
+
+    ${media.mobile`
+     justify-content: center
+     width: 90%;
+     order: 2;
+    `}
   }
 
   .aboutme__photo {
@@ -80,7 +106,17 @@ const StyledAboutMe = styled.section`
     height: auto;
     border-radius: 10px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-    position: relative;
+    transition: var(--transition);
+
+    &:hover {
+      transform: scale(1.03);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    }
+
+    ${media.mobile`
+    max-height: 500px;
+    margin-bottom: 1.5rem;
+    `}
   }
 `;
 
