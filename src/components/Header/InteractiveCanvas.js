@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { breakpoints } from '../Styled/mediaqueries';
 
 const InteractiveCanvas = () => {
   const canvasRef = useRef(null);
@@ -12,9 +13,9 @@ const InteractiveCanvas = () => {
 
     let points = [];
     const maxDistance = 150;
-    const breakpoints = {
-      mobile: 600,
-      tablet: 900,
+    const bp = {
+      mobile: parseInt(breakpoints.mobile, 10),
+      tablet: parseInt(breakpoints.tablet, 10),
     };
 
     class Point {
@@ -26,9 +27,9 @@ const InteractiveCanvas = () => {
 
     function getNumberOfPoints() {
       const screenWidth = window.innerWidth;
-      if (screenWidth <= breakpoints.mobile) {
+      if (screenWidth <= bp.mobile) {
         return 35;
-      } else if (screenWidth <= breakpoints.tablet) {
+      } else if (screenWidth <= bp.tablet) {
         return 55;
       } else {
         return 120;
@@ -84,7 +85,7 @@ const InteractiveCanvas = () => {
     };
 
     function checkAndApplyInteraction() {
-      const enableInteraction = window.innerWidth > breakpoints.mobile;
+      const enableInteraction = window.innerWidth > bp.mobile;
       if (enableInteraction) {
         window.addEventListener('mousemove', handleMouseMoveGlobal);
       } else {

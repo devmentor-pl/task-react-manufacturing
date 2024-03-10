@@ -50,9 +50,13 @@ const StyledNavbar = styled.nav`
       display: block;
     `}
 
-    &:hover {
+    &:hover, &:focus {
       filter: var(--icon-color-blue);
       transform: rotate(15deg);
+    }
+
+    &:active {
+      transform: scale(0.9);
     }
   }
 

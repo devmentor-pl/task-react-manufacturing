@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Reset } from 'styled-reset';
 import { ThemeProvider } from 'styled-components';
@@ -14,7 +14,9 @@ root.render(
     <GlobalFonts />
     <GlobalStyles />
     <ThemeProvider theme={theme}>
-      <App />
+      <StrictMode>
+        <App />
+      </StrictMode>
     </ThemeProvider>
   </>
 );
