@@ -6,7 +6,7 @@ const StyledHeader = styled.header`
   color: var(--font-main-white);
   min-height: 100vh;
   margin: 0 auto;
-  padding: 0 5rem;
+  padding: 0 10rem;
   box-sizing: border-box;
   flex-direction: column;
   position: relative;
@@ -31,14 +31,19 @@ const StyledHeader = styled.header`
   .header__content {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding-top: 10rem;
+    padding-top: 20rem;
 
     ${media.tablet`
     display: flex;
+    padding-top: 10rem;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     width: 90%;
+      `}
+
+    ${media.mobile`
+    padding-top: 7rem;
       `}
   }
 

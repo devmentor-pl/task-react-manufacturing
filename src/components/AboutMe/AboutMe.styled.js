@@ -38,10 +38,9 @@ const StyledAboutMe = styled.section`
   }
 
   .aboutme__content {
-    max-width: var(--max-width);
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     ${media.mobile`
       flex-direction: column-reverse;
@@ -68,13 +67,11 @@ const StyledAboutMe = styled.section`
   }
 
   .aboutme__paragraph {
-    max-width: 40vw;
     line-height: 1.6;
     padding: 1rem;
     text-align: left;
     font-size: 1.8rem;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.1);
 
     ${media.tablet`
     font-size: 1.3rem;
@@ -90,7 +87,7 @@ const StyledAboutMe = styled.section`
   .aboutme__image {
     position: relative;
     margin-top: 2rem;
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
 
@@ -103,6 +100,12 @@ const StyledAboutMe = styled.section`
      width: 90%;
      order: 2;
     `}
+  }
+
+  .aboutme__text,
+  .aboutme__image {
+    flex: 1;
+    min-width: 0;
   }
 
   .aboutme__photo {

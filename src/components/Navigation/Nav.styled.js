@@ -81,10 +81,11 @@ const StyledNavbar = styled.nav`
       align-items: stretch;
       position: fixed;
       padding: 1rem 2.5rem;
-      gap: 2.5rem;
+      gap: 3rem;
       top: 0;
       right: 0;
       height: 100vh;
+      width: 40vw;
       min-width: min-content;
       background-color: var(--color-navbar-background);
       backdrop-filter: blur(10px);
@@ -117,7 +118,7 @@ const StyledNavbar = styled.nav`
     `}
 
     ${media.mobile`
-      font-size: 1.3rem
+      font-size: 1.8rem
     `}
 
     &::after {
