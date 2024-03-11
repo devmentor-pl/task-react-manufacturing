@@ -2,7 +2,7 @@ import React from 'react';
 import StyledHeader from './Header.styled';
 import Navbar from '../Navigation/Navbar';
 import { ReactComponent as GitHub } from '../../icons/Github.svg';
-import InteractiveCanvas from './InteractiveCanvas';
+import InteractiveCanvas from '../InteractiveCanvas';
 
 const Header = () => {
   return (

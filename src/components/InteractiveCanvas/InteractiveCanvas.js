@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import { breakpoints } from '../components/Styled/mediaqueries';
+import { breakpoints } from '../Styled/mediaqueries';
+import StyledCanvas from './InteractiveCanvas.styled';
 
 const InteractiveCanvas = () => {
   const canvasRef = useRef(null);
@@ -113,7 +114,7 @@ const InteractiveCanvas = () => {
     };
   }, []);
 
-  return <canvas ref={canvasRef} className="header__interactive-canvas" />;
+  return <StyledCanvas ref={canvasRef} />;
 };
 
 export default InteractiveCanvas;

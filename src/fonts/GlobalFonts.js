@@ -1,9 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
-import RobotoMonoRegular from './robotoMonoRegular.ttf';
+import RobotoMonoRegular from './RobotoMonoRegular.ttf';
 import RobotoMonoBold from './RobotoMonoBold.ttf';
-import RobotoMonoLight from './robotoMonoLight.ttf';
-import RobotoMonoItalic from './robotoMonoLightitalic.ttf';
+import RobotoMonoLight from './RobotoMonoLight.ttf';
+import RobotoMonoItalic from './RobotoMonoLightitalic.ttf';
 
 const fontFiles = [
   {

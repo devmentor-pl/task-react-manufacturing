@@ -19,15 +19,6 @@ const StyledHeader = styled.header`
     font-size: 1.5rem;
   `}
 
-  .header__interactive-canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-  }
-
   .header__content {
     max-width: var(--max-width);
     margin: 0 auto;
