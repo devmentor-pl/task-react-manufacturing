@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 import RobotoMonoRegular from './robotoMonoRegular.ttf';
-import RobotoMonoBold from './robotoMonoBold.ttf';
+import RobotoMonoBold from './RobotoMonoBold.ttf';
 import RobotoMonoLight from './robotoMonoLight.ttf';
 import RobotoMonoItalic from './robotoMonoLightitalic.ttf';
 
