@@ -4,6 +4,9 @@ const GlobalStyles = createGlobalStyle`
 :root{
    --color-main-background: #1A1A20; 
    --color-navbar-background: rgba(26, 26, 32, 0.55);
+   --backdrop-bg-color: rgba(0, 0, 0, 0.5);
+  --cv-container-bg-color: white;
+
 
    --border-radius: 10px;
 

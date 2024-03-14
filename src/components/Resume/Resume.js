@@ -21,7 +21,7 @@ const Resume = () => {
 
   return (
     <StyledResume>
-      <h2 className="resume__heading">I also invite you to view my CV.</h2>
+      <h2 className="resume__heading">I also invite you to view my CV</h2>
       <button className="resume__show-btn" onClick={toggleCVVisibility}>
         Show My CV
       </button>

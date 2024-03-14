@@ -100,8 +100,8 @@ const StyledHeader = styled.header`
     width: max-content;
     background-color: var(--main-color-blue);
     color: var(--font-main-white);
-    padding: 0.75rem 0.75rem;
-    border-radius: 5px;
+    padding: 1rem 2rem;
+    border-radius: var(--border-radius);
     text-decoration: none;
     font-size: 2.25rem;
     transition: var(--transition) ease;
