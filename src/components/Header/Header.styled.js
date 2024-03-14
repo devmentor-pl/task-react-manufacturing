@@ -4,6 +4,7 @@ import { media } from '../Styled/mediaqueries';
 const StyledHeader = styled.header`
   background-color: var(--color-main-background);
   color: var(--font-main-white);
+  min-height: 100vh;
   margin: 0 auto;
   padding: 0 10rem;
   box-sizing: border-box;
@@ -21,7 +22,7 @@ const StyledHeader = styled.header`
   .header__content {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding: 20rem 0;
+    padding: 15rem 0;
 
     ${media.tablet`
     display: flex;
