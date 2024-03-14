@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 import RobotoMonoRegular from './RobotoMonoRegular.ttf';
 import RobotoMonoBold from './RobotoMonoBold.ttf';
 import RobotoMonoLight from './RobotoMonoLight.ttf';
-import RobotoMonoItalic from './RobotoMonoLightitalic.ttf';
+import RobotoMonoItalic from './RobotoMonoLightItalic.ttf';
 
 const fontFiles = [
   {
