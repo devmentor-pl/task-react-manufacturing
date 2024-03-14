@@ -41,6 +41,8 @@ const StyledAboutMe = styled.section`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    max-width: var(--max-width);
+    margin: 0 auto;
 
     ${media.mobile`
       flex-direction: column-reverse;

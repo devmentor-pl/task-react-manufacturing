@@ -4,6 +4,7 @@ import jsLogo from '../../logos/js-logo.svg';
 import htmlLogo from '../../logos/html-logo.svg';
 import cssLogo from '../../logos/css-logo.svg';
 import reactLogo from '../../logos/react-logo.svg';
+import npmLogo from '../../logos/npm-logo.svg';
 
 const TechStack = () => {
   const icons = [
@@ -11,14 +12,7 @@ const TechStack = () => {
     { label: 'HTML', src: htmlLogo, name: 'HTML' },
     { label: 'CSS', src: cssLogo, name: 'CSS' },
     { label: 'React', src: reactLogo, name: 'React' },
-    { label: 'JS', src: jsLogo, name: 'JavaScript' },
-    { label: 'HTML', src: htmlLogo, name: 'HTML' },
-    { label: 'CSS', src: cssLogo, name: 'CSS' },
-    { label: 'React', src: reactLogo, name: 'React' },
-    { label: 'JS', src: jsLogo, name: 'JavaScript' },
-    { label: 'HTML', src: htmlLogo, name: 'HTML' },
-    { label: 'CSS', src: cssLogo, name: 'CSS' },
-    { label: 'React', src: reactLogo, name: 'React' },
+    { label: 'npm', src: npmLogo, name: 'npm' },
   ];
 
   return (

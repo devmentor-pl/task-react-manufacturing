@@ -17,6 +17,11 @@ const StyledTechStack = styled.div`
   min-height: 50vh;
   padding: 3rem 2rem;
 
+  ${media.tablet`
+  margin-top: -7rem;
+  padding: 0rem 1rem;
+    `}
+
   .techstack__title {
     width: 100%;
     text-align: center;
@@ -27,19 +32,22 @@ const StyledTechStack = styled.div`
     margin-bottom: 3rem;
 
     ${media.tablet`
-      font-size: 2.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
     `}
 
     ${media.mobile`
       font-size: 2.2rem;
       margin-bottom: 1.5rem;
-
     `}
   }
   .techstack {
+    max-width: var(--max-width);
     background: var(--icons-carousel-backgroud);
     overflow: hidden;
+    width: 95%;
     padding: 60px 0;
+    margin: 0 auto;
     position: relative;
     white-space: nowrap;
     border-radius: var(--border-radius);
@@ -102,6 +110,10 @@ const StyledTechStack = styled.div`
     margin: 0 40px;
     transition: transform 0.3s ease;
 
+    ${media.tablet`
+    margin: 0 20px;
+    `}
+
     &:hover {
       transform: scale(0.95);
     }
@@ -109,13 +121,21 @@ const StyledTechStack = styled.div`
     .techstack__icon-img {
       height: 75px;
       object-fit: contain;
+
+      ${media.tablet`
+      height: 50px;
+    `}
     }
 
     .techstack__icon-name {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       margin-top: 0.5rem;
       font-weight: bold;
       color: var(--font-main-black);
+
+      ${media.tablet`
+      font-size: 1.2rem;
+    `}
     }
   }
 `;
