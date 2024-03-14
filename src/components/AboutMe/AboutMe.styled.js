@@ -71,7 +71,7 @@ const StyledAboutMe = styled.section`
     padding: 1rem;
     text-align: left;
     font-size: 1.8rem;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 
     ${media.tablet`
     font-size: 1.3rem;

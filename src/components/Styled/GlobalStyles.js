@@ -5,11 +5,16 @@ const GlobalStyles = createGlobalStyle`
    --color-main-background: #1A1A20; 
    --color-navbar-background: rgba(26, 26, 32, 0.55);
 
+   --border-radius: 10px;
+
    --font-main-gray: #A3A3A2;
+   --font-main-black: #1A1A20;
    --font-main-white: #DADADA;
 
    --main-color-blue: #0F8B8D;
    --main-color-dark: #05494A;
+
+   --icons-carousel-backgroud: #6fb9bb;
 
    --icon-color-gray: invert(69%) sepia(11%) saturate(0%) hue-rotate(136deg)
       brightness(94%) contrast(93%);

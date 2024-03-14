@@ -2,17 +2,20 @@ import styled, { keyframes } from 'styled-components';
 import { media } from '../Styled/mediaqueries';
 
 const slide = keyframes`
-from{
-   transform: translateX(0%);
-} to{
-   transform: translateX(-50%);
-}
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 `;
 
 const StyledTechStack = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   min-height: 50vh;
-  padding: 4rem 2rem;
-  text-align: center;
+  padding: 3rem 2rem;
 
   .techstack__title {
     width: 100%;
@@ -33,28 +36,87 @@ const StyledTechStack = styled.div`
 
     `}
   }
-
-  .carousel {
+  .techstack {
+    background: var(--icons-carousel-backgroud);
     overflow: hidden;
+    padding: 60px 0;
+    position: relative;
     white-space: nowrap;
+    border-radius: var(--border-radius);
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 250px;
+      height: 100%;
+      z-index: 2;
+    }
+
+    &:before {
+      left: 0;
+      background: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0),
+        var(--main-color-blue)
+      );
+    }
+
+    &:after {
+      right: 0;
+      background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        var(--main-color-blue)
+      );
+    }
+
+    &:hover .techstack__carousel-track {
+      animation-play-state: paused;
+    }
   }
 
-  .carousel__track {
+  .techstack__carousel {
     display: flex;
-    animation: ${slide} 20s linear infinite;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
   }
 
-  .tech-icon {
+  .techstack__carousel-track {
+    display: flex;
+    animation: ${slide} 15s linear infinite;
+  }
+
+  .techstack__icon {
     display: inline-flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    width: 100px;
-    height: 100px;
-    margin-right: 2rem;
-    background-color: #eee;
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 100px;
+    align-items: center;
+    margin: 0 40px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(0.95);
+    }
+
+    .techstack__icon-img {
+      height: 75px;
+      object-fit: contain;
+    }
+
+    .techstack__icon-name {
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+      font-weight: bold;
+      color: var(--font-main-black);
+    }
   }
 `;
 
