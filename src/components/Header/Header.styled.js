@@ -15,7 +15,6 @@ const StyledHeader = styled.header`
 
   ${media.tablet`
     padding: 0 2rem;
-    min-height: 600px;
     font-size: 1.5rem;
   `}
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import AboutMe from './AboutMe';
-import TechStack from './TechStack/TechStack';
+import TechStack from './TechStack';
 
 export default class App extends React.Component {
   render() {

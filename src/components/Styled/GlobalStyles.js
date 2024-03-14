@@ -19,6 +19,8 @@ const GlobalStyles = createGlobalStyle`
 
    --icons-carousel-backgroud: #6fb9bb;
 
+
+   --icon-color-white: invert(98%) sepia(1%) saturate(1395%) hue-rotate(183deg) brightness(110%) contrast(71%);
    --icon-color-gray: invert(69%) sepia(11%) saturate(0%) hue-rotate(136deg)
       brightness(94%) contrast(93%);
    --icon-color-blue: invert(30%) sepia(95%) saturate(3500%) hue-rotate(150deg)

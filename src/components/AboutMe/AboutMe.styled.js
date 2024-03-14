@@ -89,6 +89,7 @@ const StyledAboutMe = styled.section`
     position: relative;
     margin-top: 2rem;
     width: 40%;
+    height: 40%;
     display: flex;
     align-items: center;
 
@@ -111,8 +112,8 @@ const StyledAboutMe = styled.section`
 
   .aboutme__photo {
     width: auto;
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
     border: 3px solid var(--color-main-background);

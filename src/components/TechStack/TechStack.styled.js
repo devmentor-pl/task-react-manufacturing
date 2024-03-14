@@ -154,14 +154,17 @@ const StyledTechStack = styled.div`
 
     .techstack__icon-img {
       height: 75px;
+      width: 75px;
       object-fit: contain;
 
       ${media.tablet`
       height: 50px;
+      width: 50px;
     `}
 
       ${media.mobile`
       height: 30px;
+      width: 30px;
     `}
     }
 

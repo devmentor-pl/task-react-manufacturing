@@ -10,7 +10,7 @@ import babelLogo from '../../logos/babel-logo.svg';
 import gitLogo from '../../logos/git-logo.svg';
 import sassLogo from '../../logos/sass-logo.svg';
 import webpackLogo from '../../logos/webpack-logo.svg';
-import Resume from '../Resume/Resume';
+import Resume from '../Resume';
 
 const TechStack = () => {
   const icons = [

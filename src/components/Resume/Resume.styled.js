@@ -8,24 +8,32 @@ const StyledResume = styled.div`
     text-align: center;
     margin: 3rem auto;
     margin-bottom: 5rem;
+    line-height: 1.4;
     max-width: var(--max-width);
 
     ${media.tablet`
-      font-size: 1.3rem;
+      font-size: 1.75rem;
+      margin-bottom: 3rem;
+
     `}
 
     ${media.mobile`
-      font-size: 1.2rem;
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+
     `}
   }
 
-  .resume__show-btn {
+  .resume__show-btn,
+  .resume__download-btn {
     display: flex;
-    font-size: 2rem;
-    padding: 2rem 8rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    padding: 1.75rem 7rem;
     background-color: var(--main-color-blue);
-    color: white;
-    margin: 0 auto;
+    color: var(--font-main-white);
+    margin: 5rem auto;
     border: none;
     border-radius: var(--border-radius);
     cursor: pointer;
@@ -38,14 +46,31 @@ const StyledResume = styled.div`
     }
 
     ${media.tablet`
-      font-size: 0.9rem;
-      padding: 0.4rem 0.9rem;
+      font-size: 1.25rem;
+      padding: 1rem 3rem;
     `}
 
     ${media.mobile`
-      font-size: 0.8rem;
-      padding: 0.3rem 0.8rem;
+      margin: 3rem auto;
+      font-size: 1rem;
+      padding: 0.5rem 1.5rem;
     `}
+  }
+
+  .resume__download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    max-width: 55%;
+  }
+  .resume__download-btn--icon {
+    filter: var(--icon-color-white);
+    color: var(--font-main-white);
+    font-weight: bold;
+    height: 25px;
+    width: 25px;
+    padding-left: 1rem;
   }
 
   .resume__backdrop {
@@ -118,4 +143,5 @@ const StyledResume = styled.div`
     border: none;
   }
 `;
+
 export default StyledResume;
