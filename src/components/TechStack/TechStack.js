@@ -5,19 +5,35 @@ import htmlLogo from '../../logos/html-logo.svg';
 import cssLogo from '../../logos/css-logo.svg';
 import reactLogo from '../../logos/react-logo.svg';
 import npmLogo from '../../logos/npm-logo.svg';
+import apiLogo from '../../logos/api-logo.svg';
+import babelLogo from '../../logos/babel-logo.svg';
+import gitLogo from '../../logos/git-logo.svg';
+import sassLogo from '../../logos/sass-logo.svg';
+import webpackLogo from '../../logos/webpack-logo.svg';
 
 const TechStack = () => {
   const icons = [
+    { label: 'React', src: reactLogo, name: 'React' },
     { label: 'JS', src: jsLogo, name: 'JavaScript' },
     { label: 'HTML', src: htmlLogo, name: 'HTML' },
     { label: 'CSS', src: cssLogo, name: 'CSS' },
-    { label: 'React', src: reactLogo, name: 'React' },
-    { label: 'npm', src: npmLogo, name: 'npm' },
+    { label: 'API', src: apiLogo, name: 'Rest API' },
+    { label: 'Babel', src: babelLogo, name: 'Babel' },
+    { label: 'Git', src: gitLogo, name: 'Git' },
+    { label: 'Sass', src: sassLogo, name: 'Sass' },
+    { label: 'Webpack', src: webpackLogo, name: 'Webpack' },
+    { label: 'npm', src: npmLogo, name: 'Npm' },
   ];
 
   return (
     <StyledTechStack>
-      <h2 className="techstack__title">Tech stack</h2>
+      <div className="techstack__header">
+        <h2 className="techstack__title">Tech stack</h2>
+        <p className="techstack__paragraph">
+          Each icon below represents a technology I've mastered as part of my
+          development toolkit.
+        </p>
+      </div>
       <div className="techstack">
         <div className="techstack__carousel">
           <div className="techstack__carousel-track">

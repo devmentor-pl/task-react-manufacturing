@@ -6,7 +6,6 @@ const StyledAboutMe = styled.section`
   color: var(--font-main-white);
   padding: 3rem 5rem;
   box-sizing: border-box;
-  min-height: 50vh;
   margin: 0 auto;
 
   ${media.tablet`

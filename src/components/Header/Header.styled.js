@@ -4,7 +4,6 @@ import { media } from '../Styled/mediaqueries';
 const StyledHeader = styled.header`
   background-color: var(--color-main-background);
   color: var(--font-main-white);
-  min-height: 100vh;
   margin: 0 auto;
   padding: 0 10rem;
   box-sizing: border-box;
@@ -22,11 +21,11 @@ const StyledHeader = styled.header`
   .header__content {
     max-width: var(--max-width);
     margin: 0 auto;
-    padding-top: 20rem;
+    padding: 20rem 0;
 
     ${media.tablet`
     display: flex;
-    padding-top: 10rem;
+    padding: 10rem 0;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +33,7 @@ const StyledHeader = styled.header`
       `}
 
     ${media.mobile`
-    padding-top: 7rem;
+      padding: 7rem 0;
       `}
   }
 

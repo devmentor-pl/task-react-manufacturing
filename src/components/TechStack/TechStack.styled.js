@@ -1,26 +1,23 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import { media } from '../Styled/mediaqueries';
-
-const slide = keyframes`
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-`;
+import { slide } from '../../animations/keyframes';
 
 const StyledTechStack = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  min-height: 50vh;
   padding: 3rem 2rem;
+  color: var(--font-main-white);
 
   ${media.tablet`
   margin-top: -7rem;
   padding: 0rem 1rem;
     `}
+
+  .techstack__header {
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
 
   .techstack__title {
     width: 100%;
@@ -29,16 +26,34 @@ const StyledTechStack = styled.div`
     font-weight: bold;
     font-size: 4rem;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    margin-bottom: 3rem;
+    padding-top: 3rem;
+    margin: 4rem 0;
 
     ${media.tablet`
     font-size: 2.5rem;
-    margin-bottom: 1rem;
     `}
 
     ${media.mobile`
       font-size: 2.2rem;
-      margin-bottom: 1.5rem;
+      margin: 4rem 0;
+    `}
+  }
+
+  .techstack__paragraph {
+    line-height: 1.6;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: var(--border-radius);
+
+    ${media.tablet`
+    font-size: 1.3rem;
+    line-height: 1.5;
+    `}
+
+    ${media.mobile`
+    font-size: 1.1rem;
+    max-width: 90vw
     `}
   }
   .techstack {
@@ -47,10 +62,20 @@ const StyledTechStack = styled.div`
     overflow: hidden;
     width: 95%;
     padding: 60px 0;
-    margin: 0 auto;
+    margin: 4rem auto;
     position: relative;
     white-space: nowrap;
     border-radius: var(--border-radius);
+
+    ${media.tablet`
+    margin: 2rem auto;
+    padding: 45px 0;
+    `}
+
+    ${media.mobile`
+    padding: 35px 0;
+    margin: 1rem auto;
+    `}
 
     &:hover {
       cursor: pointer;
@@ -59,11 +84,20 @@ const StyledTechStack = styled.div`
     &:before,
     &:after {
       content: '';
+      pointer-events: none;
       position: absolute;
       top: 0;
       width: 250px;
       height: 100%;
       z-index: 2;
+
+      ${media.tablet`
+      width: 150px;
+    `}
+
+      ${media.mobile`
+      width: 75px;
+    `}
     }
 
     &:before {
@@ -115,7 +149,7 @@ const StyledTechStack = styled.div`
     `}
 
     &:hover {
-      transform: scale(0.95);
+      transform: scale(0.9);
     }
 
     .techstack__icon-img {
@@ -124,6 +158,10 @@ const StyledTechStack = styled.div`
 
       ${media.tablet`
       height: 50px;
+    `}
+
+      ${media.mobile`
+      height: 30px;
     `}
     }
 
@@ -135,6 +173,10 @@ const StyledTechStack = styled.div`
 
       ${media.tablet`
       font-size: 1.2rem;
+    `}
+      ${media.mobile`
+      font-size: 1rem;
+
     `}
     }
   }
