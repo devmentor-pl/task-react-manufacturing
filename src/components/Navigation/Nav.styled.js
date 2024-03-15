@@ -42,7 +42,7 @@ const StyledNavbar = styled.nav`
     top: 1rem;
     right: 1rem;
     filter: var(--icon-color-gray);
-    z-index: 2;
+    z-index: 999;
     width: 40px;
     height: 40px;
     transition: var(--transition), transform 0.3s ease;
