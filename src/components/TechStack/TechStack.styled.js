@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { media } from '../Styled/mediaqueries';
 import { slide } from '../../animations/keyframes';
 
-const StyledTechStack = styled.div`
+const StyledTechStack = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

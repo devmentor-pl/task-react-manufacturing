@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import TechStack from './TechStack';
+import Projects from './Projects';
 
 export default class App extends React.Component {
   render() {
@@ -10,9 +11,7 @@ export default class App extends React.Component {
         <Header />
         <AboutMe />
         <TechStack />
-        <h1 style={{ height: '30vh', backgroundColor: 'rebeccapurple' }}>
-          Footer section
-        </h1>
+        <Projects />
       </>
     );
   }

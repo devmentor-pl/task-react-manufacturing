@@ -30,6 +30,7 @@ const StyledResume = styled.div`
     align-items: center;
     justify-content: center;
     font-size: 1.8rem;
+    font-weight: bold;
     padding: 1.75rem 7rem;
     background-color: var(--main-color-blue);
     color: var(--font-main-white);
@@ -127,6 +128,8 @@ const StyledResume = styled.div`
     transition: var(--transition), transform 0.3s ease;
 
     ${media.tablet`
+    height: 60px;
+    width: 60px;
     `}
 
     ${media.mobile`
@@ -141,6 +144,10 @@ const StyledResume = styled.div`
     width: 90%;
     height: 100%;
     border: none;
+    ${media.tablet`
+    width: 100%;
+    height: 100%;
+    `}
   }
 `;
 
