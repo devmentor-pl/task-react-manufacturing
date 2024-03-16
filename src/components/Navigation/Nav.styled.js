@@ -142,11 +142,6 @@ const StyledNavbar = styled.nav`
       color: var(--main-color-blue);
     }
   }
-
-  .navbar__link-prefix {
-    margin-right: 0.5rem;
-    color: var(--main-color-blue);
-  }
 `;
 
 export default StyledNavbar;

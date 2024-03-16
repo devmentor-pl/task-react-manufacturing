@@ -52,13 +52,16 @@ const Navbar = () => {
         )}
         <div className="navbar__links">
           <a className="navbar__link" href="#">
-            <span className="navbar__link-prefix">00.</span>About
+            About
           </a>
           <a className="navbar__link" href="#">
-            <span className="navbar__link-prefix">01.</span>Projects
+            CV
           </a>
           <a className="navbar__link" href="#">
-            <span className="navbar__link-prefix">02.</span>Contact
+            Projects
+          </a>
+          <a className="navbar__link" href="#">
+            Contact
           </a>
         </div>
       </div>
