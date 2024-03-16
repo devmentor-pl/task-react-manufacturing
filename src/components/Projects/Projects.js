@@ -1,5 +1,6 @@
 import React from 'react';
 import StyledProjects from './Projects.styled';
+import InteractiveCanvas from '../InteractiveCanvas';
 import TaskManagerScreenLow from '../../img/TaskManagerLow.avif';
 import AppLabScreenLow from '../../img/AppLabLow.avif';
 import MeetingFormScreenLow from '../../img/MeetingFormLow.avif';
@@ -36,6 +37,7 @@ const projects = [
 const Projects = () => {
   return (
     <StyledProjects>
+      <InteractiveCanvas />
       <h1 className="projects__title">My projects</h1>
       <p className="projects__introduction">
         Here you'll find a collection of my recent work, showcasing my skills in
