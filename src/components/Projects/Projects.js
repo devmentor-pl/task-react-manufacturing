@@ -37,6 +37,10 @@ const Projects = () => {
   return (
     <StyledProjects>
       <h1 className="projects__title">My projects</h1>
+      <p className="projects__introduction">
+        Here you'll find a collection of my recent work, showcasing my skills in
+        web development.
+      </p>
       {projects.map((project, index) => (
         <div key={index} className="project">
           <div className="project__image-container">
