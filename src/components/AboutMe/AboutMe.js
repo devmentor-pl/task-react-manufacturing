@@ -26,6 +26,8 @@ const AboutMe = () => {
               src={profilePicDesktop}
               alt="Maciej Nęcka profile picture"
               className="aboutme__photo"
+              width="800"
+              height="600"
             />
           </picture>
         </div>

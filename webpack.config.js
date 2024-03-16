@@ -43,8 +43,9 @@ module.exports = {
           },
         ],
       },
+      // Updated rule for images
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g|gif|avif)$/i, // Added avif to the regex
         use: [
           {
             loader: 'file-loader',

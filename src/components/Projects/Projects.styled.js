@@ -29,6 +29,7 @@ const StyledProjects = styled.section`
 
     ${media.mobile`
       font-size: 2rem;
+      margin-bottom: 5rem;
     `}
   }
 
@@ -40,16 +41,30 @@ const StyledProjects = styled.section`
 
     &:nth-child(odd) {
       flex-direction: row;
+
+      ${media.mobile`
+      flex-direction: column;
+    `}
       .project__details {
-        text-align: right;
+        text-align: center;
         margin-left: 2rem;
+        ${media.mobile`
+          margin: 0 auto;  
+    `}
       }
     }
     &:nth-child(even) {
       flex-direction: row-reverse;
+
+      ${media.mobile`
+      flex-direction: column;
+    `}
       .project__details {
-        text-align: left;
+        text-align: center;
         margin-right: 2rem;
+        ${media.mobile`
+          margin: 0 auto;  
+    `}
       }
     }
 
@@ -71,6 +86,10 @@ const StyledProjects = styled.section`
     height: auto;
     border-radius: var(--border-radius);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    ${media.mobile`
+      max-width: 75%;
+    `};
   }
 
   .project__details {
@@ -107,38 +126,59 @@ const StyledProjects = styled.section`
     `};
   }
 
+  .project__link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    ${media.mobile`
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    `}
+  }
   .project__link {
-    display: inline-block;
-    background-color: var(--main-color-blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max-content;
+    background-color: var(--main-color-dark);
     color: var(--font-main-white);
-    font-size: 1.75rem;
+    font-size: 1.35rem;
     padding: 1rem 2rem;
     border-radius: var(--border-radius);
     text-decoration: none;
     transition: var(--transition) ease;
-    border: 3px solid var(--main-color-blue);
+    border: 3px solid var(--main-color-dark);
 
     &:hover,
     &:focus {
-      background-color: darken(var(--main-color-blue), 10%);
+      background-color: darken(var(--main-color-dark), 10%);
       color: var(--font-main-white);
     }
 
     &:active {
-      background-color: lighten(var(--main-color-blue), 10%);
-      border-color: lighten(var(--main-color-blue), 10%);
+      background-color: lighten(var(--main-color-dark), 10%);
+      border-color: lighten(var(--main-color-dark), 10%);
       transform: translateY(2px);
     }
 
     ${media.tablet`
       padding: 0.8rem 1.6rem;
-      font-size: 1.5rem;
+      font-size: 1rem;
     `}
 
     ${media.mobile`
       padding: 0.5rem 1rem;
-      font-size: 1.3rem;
+      font-size: 0.9rem;
     `}
+
+    .project__link--external-icon, 
+    .project__link--github-icon {
+      height: 1.75rem;
+      width: 1.75rem;
+      padding-left: 1rem;
+      filter: var(--icon-color-white);
+    }
   }
 `;
 
