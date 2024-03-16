@@ -31,6 +31,7 @@ const createFontFace = ({ family, ttf, style }) => `
     font-family: '${family}';
     src: local('${family}'), url('${ttf}') format('truetype');
     font-style: ${style || 'normal'};
+    font-display: swap;
   }
 `;
 

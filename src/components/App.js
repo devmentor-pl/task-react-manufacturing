@@ -3,6 +3,7 @@ import Header from './Header';
 import AboutMe from './AboutMe';
 import TechStack from './TechStack';
 import Projects from './Projects';
+import Contact from './Contact/Contact';
 
 export default class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ export default class App extends React.Component {
         <AboutMe />
         <TechStack />
         <Projects />
+        <Contact />
       </>
     );
   }

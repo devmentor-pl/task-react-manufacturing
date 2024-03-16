@@ -9,7 +9,7 @@ const StyledProjects = styled.section`
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: -1;
 
   ${media.tablet`
     padding: 5rem 2rem;
