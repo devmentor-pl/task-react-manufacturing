@@ -4,6 +4,7 @@ import AboutMe from './AboutMe';
 import TechStack from './TechStack';
 import Projects from './Projects';
 import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 export default class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ export default class App extends React.Component {
         <TechStack />
         <Projects />
         <Contact />
+        <Footer />
       </>
     );
   }

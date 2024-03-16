@@ -5,7 +5,7 @@ const GlobalStyles = createGlobalStyle`
    --color-main-background: #1A1A20; 
    --color-navbar-background: rgba(26, 26, 32, 0.55);
    --backdrop-bg-color: rgba(0, 0, 0, 0.5);
-  --cv-container-bg-color: white;
+   --cv-container-bg-color: white;
 
 
    --border-radius: 10px;
@@ -24,8 +24,7 @@ const GlobalStyles = createGlobalStyle`
    --icon-color-white: invert(100%) sepia(49%) saturate(2%) hue-rotate(110deg) brightness(108%) contrast(100%);
    --icon-color-gray: invert(69%) sepia(11%) saturate(0%) hue-rotate(136deg)
       brightness(94%) contrast(93%);
-   --icon-color-blue: invert(30%) sepia(95%) saturate(3500%) hue-rotate(150deg)
-        brightness(100%) contrast(97%);
+   --icon-color-blue: invert(30%) sepia(75%) saturate(2068%) hue-rotate(159deg) brightness(92%) contrast(88%);
 
    --transition: all 0.5s;
 
