@@ -30,6 +30,20 @@ const Navbar = () => {
     };
   }, [isNavOpen]);
 
+  const handleScrollToSection = (sectionId, event) => {
+    event.preventDefault();
+
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const navbarHeight = 60;
+      const sectionTop = section.offsetTop - navbarHeight;
+
+      window.scrollTo({
+        top: sectionTop,
+      });
+    }
+  };
+
   return (
     <StyledNavbar open={isNavOpen}>
       <div ref={navbarRef} className="navbar__container">
@@ -51,16 +65,32 @@ const Navbar = () => {
           />
         )}
         <div className="navbar__links">
-          <a className="navbar__link" href="#">
+          <a
+            className="navbar__link"
+            href="#about"
+            onClick={(e) => handleScrollToSection('about', e)}
+          >
             About
           </a>
-          <a className="navbar__link" href="#">
-            CV
+          <a
+            className="navbar__link"
+            href="#techStack"
+            onClick={(e) => handleScrollToSection('techStack', e)}
+          >
+            Tech stack
           </a>
-          <a className="navbar__link" href="#">
+          <a
+            className="navbar__link"
+            href="#projects"
+            onClick={(e) => handleScrollToSection('projects', e)}
+          >
             Projects
           </a>
-          <a className="navbar__link" href="#">
+          <a
+            className="navbar__link"
+            href="#contact"
+            onClick={(e) => handleScrollToSection('contact', e)}
+          >
             Contact
           </a>
         </div>

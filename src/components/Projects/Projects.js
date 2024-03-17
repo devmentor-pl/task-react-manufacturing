@@ -36,7 +36,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <StyledProjects>
+    <StyledProjects id="projects">
       <InteractiveCanvas />
       <h1 className="projects__title">My projects</h1>
       <p className="projects__introduction">

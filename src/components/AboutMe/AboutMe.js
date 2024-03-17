@@ -6,7 +6,7 @@ import profilePicMobile from '../../img/ProfileMobile.png';
 
 const AboutMe = () => {
   return (
-    <StyledAboutMe>
+    <StyledAboutMe id="about">
       <h2 className="aboutme__title">About Me</h2>
       <div className="aboutme__content">
         <div className="aboutme__text">

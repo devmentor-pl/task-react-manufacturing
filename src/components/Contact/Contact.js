@@ -3,7 +3,7 @@ import StyledContact from './Contact.styled';
 import { ReactComponent as MailIcon } from '../../icons/MailIcon.svg';
 
 const Contact = () => (
-  <StyledContact>
+  <StyledContact id="contact">
     <div className="contact__info">
       <h2 className="contact__heading">Let's connect!</h2>
       <p className="contact__paragraph">

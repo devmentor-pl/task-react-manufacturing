@@ -27,7 +27,7 @@ const TechStack = () => {
   ];
 
   return (
-    <StyledTechStack>
+    <StyledTechStack id="techStack">
       <div className="techstack__header">
         <h2 className="techstack__title">Tech stack</h2>
         <p className="techstack__paragraph">

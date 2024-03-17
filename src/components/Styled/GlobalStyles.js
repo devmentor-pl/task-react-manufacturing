@@ -30,6 +30,9 @@ const GlobalStyles = createGlobalStyle`
 
    --max-width: 1700px;
 }
+html{
+   scroll-behavior: smooth;
+}
 
 body{
    background-color: var(--color-main-background);
