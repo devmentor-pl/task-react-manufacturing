@@ -1,5 +1,6 @@
 import React from 'react';
 import StyledTechStack from './TechStack.styled';
+import Underline from '../Underline';
 import jsLogo from '../../logos/js-logo.svg';
 import htmlLogo from '../../logos/html-logo.svg';
 import cssLogo from '../../logos/css-logo.svg';
@@ -29,7 +30,9 @@ const TechStack = () => {
   return (
     <StyledTechStack id="techStack">
       <div className="techstack__header">
-        <h2 className="techstack__title">Tech stack</h2>
+        <h2 className="techstack__title">
+          <Underline>Tech stack</Underline>
+        </h2>
         <p className="techstack__paragraph">
           Each icon below represents a technology I've mastered as part of my
           development toolkit.

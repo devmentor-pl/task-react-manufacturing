@@ -3,11 +3,14 @@ import StyledAboutMe from './AboutMe.styled';
 import profilePicDesktop from '../../img/ProfileDesktop.png';
 import profilePicTablet from '../../img/ProfileTablet.png';
 import profilePicMobile from '../../img/ProfileMobile.png';
+import Underline from '../Underline';
 
 const AboutMe = () => {
   return (
     <StyledAboutMe id="about">
-      <h2 className="aboutme__title">About Me</h2>
+      <h2 className="aboutme__title">
+        <Underline>About Me</Underline>
+      </h2>
       <div className="aboutme__content">
         <div className="aboutme__text">
           <p className="aboutme__paragraph">

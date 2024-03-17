@@ -56,3 +56,15 @@ export const swing = keyframes`
     transform: rotate(0deg);
   }
 `;
+
+export const headerPulsate = keyframes`
+0% {
+    box-shadow: 0 0 4px var(--main-color-blue);
+  }
+  50% {
+    box-shadow: 0 0 12px var(--main-color-blue);
+  }
+  100% {
+    box-shadow: 0 0 4px var(--main-color-blue);
+  }
+`;

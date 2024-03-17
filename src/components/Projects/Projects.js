@@ -1,5 +1,6 @@
 import React from 'react';
 import StyledProjects from './Projects.styled';
+import Underline from '../Underline';
 import InteractiveCanvas from '../InteractiveCanvas';
 import TaskManagerScreenLow from '../../img/TaskManagerLow.avif';
 import AppLabScreenLow from '../../img/AppLabLow.avif';
@@ -38,7 +39,9 @@ const Projects = () => {
   return (
     <StyledProjects id="projects">
       <InteractiveCanvas />
-      <h1 className="projects__title">My projects</h1>
+      <h1 className="projects__title">
+        <Underline>My projects</Underline>
+      </h1>
       <p className="projects__introduction">
         Here you'll find a collection of my recent work, showcasing my skills in
         web development.
