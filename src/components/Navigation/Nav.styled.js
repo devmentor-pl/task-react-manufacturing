@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { media } from '../Styled/mediaqueries';
+import { swing } from '../../animations/keyframes';
 
 const StyledNavbar = styled.nav`
   padding: 1rem 5rem;
@@ -48,6 +49,7 @@ const StyledNavbar = styled.nav`
     width: 40px;
     height: 40px;
     transition: var(--transition), transform 0.3s ease;
+    animation: ${swing} 5s infinite ease-in-out;
     ${media.mobile`
       display: block;
     `}

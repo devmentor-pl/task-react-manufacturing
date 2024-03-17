@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { pulse } from '../../animations/keyframes';
 
 const StyledArrowUp = styled.div`
   position: fixed;
@@ -13,6 +14,7 @@ const StyledArrowUp = styled.div`
   z-index: 1000;
   filter: var(--icon-color-white);
   transition: var(--transition), transform 0.3s ease;
+  animation: ${pulse} 2s infinite ease-in-out;
   &:hover,
   &:focus {
     filter: var(--icon-color-blue);
