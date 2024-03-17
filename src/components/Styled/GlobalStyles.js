@@ -31,7 +31,7 @@ const GlobalStyles = createGlobalStyle`
    --max-width: 1700px;
 }
 html{
-   scroll-behavior: smooth;
+   scroll-behavior: smooth; 
 }
 
 body{
