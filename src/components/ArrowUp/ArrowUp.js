@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import StyledArrowUp from './ArrowUp.styled'; // Ensure this path matches your file structure
-import { ReactComponent as ArrowUpIcon } from '../../icons/ArrowUp.svg'; // Ensure this path matches your file structure
+import StyledArrowUp from './ArrowUp.styled';
+import { ReactComponent as ArrowUpIcon } from '../../icons/ArrowUp.svg';
 
 const ArrowUp = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const headerHeight = 100; // This value might need to be adjusted based on your header's actual height
+    const headerHeight = 100;
     const toggleVisibility = () => {
       if (window.pageYOffset > headerHeight) {
         setIsVisible(true);
@@ -23,14 +23,13 @@ const ArrowUp = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
     });
   };
 
   return (
     isVisible && (
       <StyledArrowUp onClick={scrollToTop}>
-        <ArrowUpIcon />
+        <ArrowUpIcon className="arrow-up-icon" />
       </StyledArrowUp>
     )
   );

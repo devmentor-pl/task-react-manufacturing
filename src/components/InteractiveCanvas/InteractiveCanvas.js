@@ -50,18 +50,18 @@ const InteractiveCanvas = () => {
     function drawLines() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.beginPath();
-      for (let i = 0; i < points.length; i++) {
-        for (let j = i + 1; j < points.length; j++) {
-          let distance = Math.sqrt(
-            Math.pow(points[i].x - points[j].x, 2) +
-              Math.pow(points[i].y - points[j].y, 2)
+      points.forEach((point, i) => {
+        points.slice(i + 1).forEach((otherPoint) => {
+          let distance = Math.hypot(
+            point.x - otherPoint.x,
+            point.y - otherPoint.y
           );
           if (distance < maxDistance) {
-            ctx.moveTo(points[i].x, points[i].y);
-            ctx.lineTo(points[j].x, points[j].y);
+            ctx.moveTo(point.x, point.y);
+            ctx.lineTo(otherPoint.x, otherPoint.y);
           }
-        }
-      }
+        });
+      });
       ctx.strokeStyle = '#05494A';
       ctx.stroke();
     }
@@ -95,16 +95,17 @@ const InteractiveCanvas = () => {
     }
 
     const handleResize = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-      createPoints();
-      drawLines();
+      if (window.innerWidth > bp.mobile) {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        createPoints();
+        drawLines();
+      }
       checkAndApplyInteraction();
     };
 
     window.addEventListener('resize', handleResize);
     checkAndApplyInteraction();
-
     createPoints();
     drawLines();
 
