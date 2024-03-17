@@ -7,8 +7,8 @@ const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const navbarRef = useRef();
 
-  const handleToggleNav = (e) => {
-    e.preventDefault();
+  const handleToggleNav = (event) => {
+    event.preventDefault();
     setIsNavOpen(!isNavOpen);
   };
 
@@ -33,10 +33,16 @@ const Navbar = () => {
   const handleScrollToSection = (sectionId, event) => {
     event.preventDefault();
 
+    setIsNavOpen(false);
+
     const section = document.getElementById(sectionId);
     if (section) {
-      const navbarHeight = 60;
-      const sectionTop = section.offsetTop - navbarHeight;
+      const navbarHeight = navbarRef.current
+        ? navbarRef.current.offsetHeight
+        : 0;
+
+      const sectionTop =
+        section.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
 
       window.scrollTo({
         top: sectionTop,

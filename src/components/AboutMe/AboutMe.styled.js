@@ -13,7 +13,7 @@ const StyledAboutMe = styled.section`
   `}
 
   ${media.mobile`
-    padding: 2rem 1rem;
+    padding: 6rem 1rem;
   `}
 
   .aboutme__title {

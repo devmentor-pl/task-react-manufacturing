@@ -24,6 +24,8 @@ const StyledNavbar = styled.nav`
   background-color: transparent;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
+  height: 0;
+  padding: 0 0;
     `}
 
   .navbar__container {
@@ -111,6 +113,7 @@ const StyledNavbar = styled.nav`
     font-size: 2rem;
     transition: var(--transition);
     padding-bottom: 0.5rem;
+    white-space: nowrap;
 
     ${media.tablet`
       font-size: 1.5rem
@@ -118,7 +121,7 @@ const StyledNavbar = styled.nav`
     `}
 
     ${media.mobile`
-      font-size: 1.8rem
+      font-size: 1.5rem
     `}
 
     &::after {

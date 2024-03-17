@@ -26,8 +26,7 @@ const StyledTechStack = styled.section`
     font-weight: bold;
     font-size: 4rem;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    padding-top: 3rem;
-    margin: 4rem 0;
+    margin: 5rem 0;
 
     ${media.tablet`
     font-size: 2.5rem;
@@ -89,7 +88,6 @@ const StyledTechStack = styled.section`
       top: 0;
       width: 250px;
       height: 100%;
-      z-index: 2;
 
       ${media.tablet`
       width: 150px;
