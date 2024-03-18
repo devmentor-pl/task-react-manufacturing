@@ -63,6 +63,8 @@ const StyledResume = styled.div`
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    font-size: 2rem;
+    letter-spacing: 1px;
     max-width: 55%;
   }
   .resume__download-btn--icon {
@@ -121,7 +123,6 @@ const StyledResume = styled.div`
     right: 10px;
     filter: var(--icon-color-blue);
     border: none;
-    font-size: var(--close-btn-font-size);
     height: 50px;
     width: 50px;
     cursor: pointer;
@@ -132,12 +133,13 @@ const StyledResume = styled.div`
     width: 60px;
     `}
 
-    ${media.mobile`
-    `}
-
-    &:hover, &:focus {
-      transform: rotate(15deg);
-    }
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
   .resume__iframe {

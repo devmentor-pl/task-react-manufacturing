@@ -44,7 +44,9 @@ const Projects = () => {
       </h1>
       <p className="projects__introduction">
         Here you'll find a collection of my recent work, showcasing my skills in
-        web development.
+        web development. Throughout my learning journey, I have completed over
+        120 tasks and 20 projects. From these, I have selected the following to
+        present to you.
       </p>
       {projects.map((project, index) => (
         <div key={index} className="project">

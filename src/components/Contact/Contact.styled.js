@@ -44,7 +44,8 @@ const StyledContact = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
     width: max-content;
     padding: 1.75rem 3rem;
     background-color: var(--main-color-blue);
@@ -67,7 +68,7 @@ const StyledContact = styled.div`
     `}
 
     ${media.mobile`
-      font-size: 1rem;
+      font-size: 1.5rem;
       padding: 0.5rem 1.5rem;
       margin: 3rem auto;
     `}

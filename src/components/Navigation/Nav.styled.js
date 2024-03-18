@@ -49,7 +49,7 @@ const StyledNavbar = styled.nav`
     width: 40px;
     height: 40px;
     transition: var(--transition), transform 0.3s ease;
-    animation: ${swing} 5s infinite ease-in-out;
+    animation: ${swing} 2s ease-in-out;
     ${media.mobile`
       display: block;
     `}
@@ -84,7 +84,6 @@ const StyledNavbar = styled.nav`
 
     ${media.tablet`
       gap: 1.5rem;
-      
     `}
 
     ${media.mobile`

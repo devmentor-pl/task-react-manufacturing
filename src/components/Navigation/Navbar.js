@@ -9,7 +9,6 @@ const Navbar = () => {
   const navbarRef = useRef();
 
   const handleToggleNav = (event) => {
-    event.preventDefault();
     setIsNavOpen(!isNavOpen);
   };
 
@@ -53,7 +52,7 @@ const Navbar = () => {
 
   return (
     <>
-      <StyledNavbar open={isNavOpen}>
+      <StyledNavbar open={isNavOpen} ref={navbarRef}>
         <div ref={navbarRef} className="navbar__container">
           {isNavOpen ? (
             <CloseIcon
