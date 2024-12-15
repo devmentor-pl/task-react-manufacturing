@@ -1,0 +1,3120 @@
+{
+  "women": {
+    "bestsellers": [
+      {
+        "id": 21,
+        "gender": "women",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "T-shirts",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Sun zi",
+        "pricePLN": 299,
+        "priceUSD": 59,
+        "photos": [
+          "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+          "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+          "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      },
+      {
+        "id": 22,
+        "gender": "women",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "T-shirts",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Sun zi",
+        "pricePLN": 299,
+        "priceUSD": 59,
+        "photos": [
+          "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+          "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+          "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      },
+      {
+        "id": 23,
+        "gender": "women",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "T-shirts",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Sun zi",
+        "pricePLN": 299,
+        "priceUSD": 59,
+        "photos": [
+          "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+          "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+          "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      },
+      {
+        "id": 24,
+        "gender": "women",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "T-shirts",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Sun zi",
+        "pricePLN": 299,
+        "priceUSD": 59,
+        "photos": [
+          "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+          "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+          "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      }
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+    "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
+    "heroImageUrl": "http://localhost:5000/product-photos/women.webp"
+  },
+  "men": {
+    "bestsellers": [
+      {
+        "id": 1,
+        "gender": "men",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "T-Shirt",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Zara",
+        "pricePLN": 49,
+        "priceUSD": 10,
+        "photos": [
+          "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+          "http://localhost:5000/product-photos/man-t-shirt-4.jpg",
+          "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      },
+      {
+        "id": 2,
+        "gender": "men",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "T-Shirt",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Zara",
+        "pricePLN": 49,
+        "priceUSD": 10,
+        "photos": [
+          "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+          "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+          "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      },
+      {
+        "id": 3,
+        "gender": "men",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "T-Shirt",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Zara",
+        "pricePLN": 49,
+        "priceUSD": 10,
+        "photos": [
+          "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+          "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+          "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      },
+      {
+        "id": 4,
+        "gender": "men",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "T-Shirt",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Zara",
+        "pricePLN": 49,
+        "priceUSD": 10,
+        "photos": [
+          "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+          "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+          "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      }
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+    "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
+    "heroImageUrl": "http://localhost:5000/product-photos/men.webp"
+  },
+  "children": {
+    "bestsellers": [
+      {
+        "id": 45,
+        "gender": "children",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "Tshirts",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Kinder",
+        "pricePLN": 299,
+        "priceUSD": 59,
+        "photos": [
+          "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+          "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+          "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      },
+      {
+        "id": 46,
+        "gender": "children",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "Tshirts",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Kinder",
+        "pricePLN": 299,
+        "priceUSD": 59,
+        "photos": [
+          "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+          "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+          "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      },
+      {
+        "id": 47,
+        "gender": "children",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "Tshirts",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Kinder",
+        "pricePLN": 299,
+        "priceUSD": 59,
+        "photos": [
+          "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+          "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+          "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      },
+      {
+        "id": 48,
+        "gender": "children",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "Tshirts",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Kinder",
+        "pricePLN": 299,
+        "priceUSD": 59,
+        "photos": [
+          "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+          "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+          "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      },
+      {
+        "id": 49,
+        "gender": "children",
+        "category": "clothing",
+        "subcategory": "t-shirts",
+        "productName": "Tshirts",
+        "size": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ],
+        "color": [
+          "red",
+          "green",
+          "blue"
+        ],
+        "brand": "Kinder",
+        "pricePLN": 299,
+        "priceUSD": 59,
+        "photos": [
+          "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+          "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+          "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+        ],
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+        "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+      }
+    ],
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+    "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
+    "heroImageUrl": "http://localhost:5000/product-photos/child.jpg"
+  },
+  "products": [
+    {
+      "id": 1,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-Shirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Zara",
+      "pricePLN": 49,
+      "priceUSD": 10,
+      "photos": [
+        "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-4.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 2,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-Shirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Zara",
+      "pricePLN": 49,
+      "priceUSD": 10,
+      "photos": [
+        "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 3,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-Shirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Zara",
+      "pricePLN": 49,
+      "priceUSD": 10,
+      "photos": [
+        "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 4,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-Shirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Zara",
+      "pricePLN": 49,
+      "priceUSD": 10,
+      "photos": [
+        "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 5,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-Shirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Zara",
+      "pricePLN": 49,
+      "priceUSD": 10,
+      "photos": [
+        "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 6,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-Shirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Zara",
+      "pricePLN": 49,
+      "priceUSD": 10,
+      "photos": [
+        "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 7,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-Shirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Zara",
+      "pricePLN": 49,
+      "priceUSD": 10,
+      "photos": [
+        "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 8,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-Shirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Zara",
+      "pricePLN": 49,
+      "priceUSD": 10,
+      "photos": [
+        "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 9,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-Shirt",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Zara",
+      "pricePLN": 49,
+      "priceUSD": 10,
+      "photos": [
+        "http://localhost:5000/product-photos/man-t-shirt-1.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 10,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-shirt 4",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Sun Tzu",
+      "pricePLN": 129,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/man-t-shirt-2.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-3.jpg",
+        "http://localhost:5000/product-photos/man-t-shirt-4.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 11,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "H&M",
+      "pricePLN": 129,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/sweat-men.jpg",
+        "http://localhost:5000/product-photos/sweat-men-2.jpg",
+        "http://localhost:5000/product-photos/sweat-men-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 12,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "H&M",
+      "pricePLN": 129,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/sweat-men.jpg",
+        "http://localhost:5000/product-photos/sweat-men-2.jpg",
+        "http://localhost:5000/product-photos/sweat-men-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 13,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "H&M",
+      "pricePLN": 129,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/sweat-men.jpg",
+        "http://localhost:5000/product-photos/sweat-men-2.jpg",
+        "http://localhost:5000/product-photos/sweat-men-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 14,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "H&M",
+      "pricePLN": 129,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/sweat-men.jpg",
+        "http://localhost:5000/product-photos/sweat-men-2.jpg",
+        "http://localhost:5000/product-photos/sweat-men-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 15,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "H&M",
+      "pricePLN": 129,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/sweat-men.jpg",
+        "http://localhost:5000/product-photos/sweat-men-2.jpg",
+        "http://localhost:5000/product-photos/sweat-men-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 16,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "H&M",
+      "pricePLN": 129,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/sweat-men.jpg",
+        "http://localhost:5000/product-photos/sweat-men-2.jpg",
+        "http://localhost:5000/product-photos/sweat-men-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 17,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "H&M",
+      "pricePLN": 129,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/sweat-men.jpg",
+        "http://localhost:5000/product-photos/sweat-men-2.jpg",
+        "http://localhost:5000/product-photos/sweat-men-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 18,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "H&M",
+      "pricePLN": 129,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/sweat-men.jpg",
+        "http://localhost:5000/product-photos/sweat-men-2.jpg",
+        "http://localhost:5000/product-photos/sweat-men-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 19,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "H&M",
+      "pricePLN": 129,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/sweat-men.jpg",
+        "http://localhost:5000/product-photos/sweat-men-2.jpg",
+        "http://localhost:5000/product-photos/sweat-men-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 20,
+      "gender": "men",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "H&M",
+      "pricePLN": 129,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/sweat-men.jpg",
+        "http://localhost:5000/product-photos/sweat-men-2.jpg",
+        "http://localhost:5000/product-photos/sweat-men-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 21,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-shirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Sun zi",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 22,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-shirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Sun zi",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 23,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-shirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Sun zi",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 24,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-shirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Sun zi",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 25,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-shirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Sun zi",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 26,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-shirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Sun zi",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 27,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-shirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Sun zi",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 28,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-shirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Sun zi",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 29,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-shirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Sun zi",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 30,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "T-shirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Sun zi",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/women-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/women-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 31,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweater",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Reversed",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-sweater-1.jpg",
+        "http://localhost:5000/product-photos/women-sweater-2.jpg",
+        "http://localhost:5000/product-photos/women-sweater-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 32,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweater",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Reversed",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-sweater-1.jpg",
+        "http://localhost:5000/product-photos/women-sweater-2.jpg",
+        "http://localhost:5000/product-photos/women-sweater-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 33,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweater",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Reversed",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-sweater-1.jpg",
+        "http://localhost:5000/product-photos/women-sweater-2.jpg",
+        "http://localhost:5000/product-photos/women-sweater-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 34,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweater",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Reversed",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-sweater-1.jpg",
+        "http://localhost:5000/product-photos/women-sweater-2.jpg",
+        "http://localhost:5000/product-photos/women-sweater-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 35,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweater",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Reversed",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-sweater-1.jpg",
+        "http://localhost:5000/product-photos/women-sweater-2.jpg",
+        "http://localhost:5000/product-photos/women-sweater-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 36,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweater",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Reversed",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-sweater-1.jpg",
+        "http://localhost:5000/product-photos/women-sweater-2.jpg",
+        "http://localhost:5000/product-photos/women-sweater-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 37,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweater",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Reversed",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-sweater-1.jpg",
+        "http://localhost:5000/product-photos/women-sweater-2.jpg",
+        "http://localhost:5000/product-photos/women-sweater-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 38,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweater",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Reversed",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-sweater-1.jpg",
+        "http://localhost:5000/product-photos/women-sweater-2.jpg",
+        "http://localhost:5000/product-photos/women-sweater-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 39,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweater",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Reversed",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-sweater-1.jpg",
+        "http://localhost:5000/product-photos/women-sweater-2.jpg",
+        "http://localhost:5000/product-photos/women-sweater-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 40,
+      "gender": "women",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweater",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Reversed",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-sweater-1.jpg",
+        "http://localhost:5000/product-photos/women-sweater-2.jpg",
+        "http://localhost:5000/product-photos/women-sweater-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 41,
+      "gender": "children",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "Tshirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kinder",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 42,
+      "gender": "children",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "Tshirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kinder",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 43,
+      "gender": "children",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "Tshirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kinder",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 44,
+      "gender": "children",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "Tshirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kinder",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 45,
+      "gender": "children",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "Tshirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kinder",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 46,
+      "gender": "children",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "Tshirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kinder",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 47,
+      "gender": "children",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "Tshirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kinder",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 48,
+      "gender": "children",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "Tshirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kinder",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 49,
+      "gender": "children",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "Tshirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kinder",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 50,
+      "gender": "children",
+      "category": "clothing",
+      "subcategory": "t-shirts",
+      "productName": "Tshirts",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kinder",
+      "pricePLN": 299,
+      "priceUSD": 59,
+      "photos": [
+        "http://localhost:5000/product-photos/children-tshirt-1.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-2.jpg",
+        "http://localhost:5000/product-photos/children-tshirt-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 51,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kubota",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/men-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 52,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kubota",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/men-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 53,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kubota",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/men-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 54,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kubota",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/men-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 55,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kubota",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/men-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 56,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Kubota",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/men-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/men-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 57,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sports",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Producent 1",
+      "pricePLN": 499,
+      "priceUSD": 99,
+      "photos": [
+        "http://localhost:5000/product-photos/men-shoes-sp-1.jpg",
+        "http://localhost:5000/product-photos/men-shoes-sp-2.jpg",
+        "http://localhost:5000/product-photos/men-shoes-sp-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 58,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sports",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Producent 1",
+      "pricePLN": 499,
+      "priceUSD": 99,
+      "photos": [
+        "http://localhost:5000/product-photos/men-shoes-sp-1.jpg",
+        "http://localhost:5000/product-photos/men-shoes-sp-2.jpg",
+        "http://localhost:5000/product-photos/men-shoes-sp-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 59,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sports",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Producent 1",
+      "pricePLN": 499,
+      "priceUSD": 99,
+      "photos": [
+        "http://localhost:5000/product-photos/men-shoes-sp-1.jpg",
+        "http://localhost:5000/product-photos/men-shoes-sp-2.jpg",
+        "http://localhost:5000/product-photos/men-shoes-sp-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 60,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sports",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Producent 1",
+      "pricePLN": 499,
+      "priceUSD": 99,
+      "photos": [
+        "http://localhost:5000/product-photos/men-shoes-sp-1.jpg",
+        "http://localhost:5000/product-photos/men-shoes-sp-2.jpg",
+        "http://localhost:5000/product-photos/men-shoes-sp-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 61,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sports",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Producent 1",
+      "pricePLN": 499,
+      "priceUSD": 99,
+      "photos": [
+        "http://localhost:5000/product-photos/men-shoes-sp-1.jpg",
+        "http://localhost:5000/product-photos/men-shoes-sp-2.jpg",
+        "http://localhost:5000/product-photos/men-shoes-sp-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 62,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Producent 2",
+      "pricePLN": 199,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/women-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/women-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 63,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Producent 2",
+      "pricePLN": 199,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/women-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/women-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 64,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Producent 2",
+      "pricePLN": 199,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/women-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/women-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 65,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Producent 2",
+      "pricePLN": 199,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/women-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/women-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 66,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Producent 2",
+      "pricePLN": 199,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/women-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/women-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/women-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 67,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/children-trousers-2.jpg",
+        "http://localhost:5000/product-photos/children-trousers-3.jpg",
+        "http://localhost:5000/product-photos/children-trousers-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 68,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/children-trousers-2.jpg",
+        "http://localhost:5000/product-photos/children-trousers-3.jpg",
+        "http://localhost:5000/product-photos/children-trousers-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 69,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/children-trousers-2.jpg",
+        "http://localhost:5000/product-photos/children-trousers-3.jpg",
+        "http://localhost:5000/product-photos/children-trousers-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 70,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/children-trousers-2.jpg",
+        "http://localhost:5000/product-photos/children-trousers-3.jpg",
+        "http://localhost:5000/product-photos/children-trousers-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 71,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/children-trousers-2.jpg",
+        "http://localhost:5000/product-photos/children-trousers-3.jpg",
+        "http://localhost:5000/product-photos/children-trousers-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 72,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/children-trousers-2.jpg",
+        "http://localhost:5000/product-photos/children-trousers-3.jpg",
+        "http://localhost:5000/product-photos/children-trousers-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 73,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 74,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 75,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 76,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 77,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 78,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "formal",
+      "productName": "Formal",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Cacado",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-el-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-el-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 79,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-sp-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 80,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-sp-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 81,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-sp-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 82,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-sp-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 83,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-sp-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 84,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "sports",
+      "productName": "Sport",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-sp-1.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-2.jpg",
+        "http://localhost:5000/product-photos/kid-shoes-sp-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 85,
+      "gender": "women",
+      "category": "footwear",
+      "subcategory": "sneakers",
+      "productName": "Sneakers",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/women-sneaker-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 86,
+      "gender": "women",
+      "category": "accessories",
+      "subcategory": "bags",
+      "productName": "Bags",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/women-bag-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 87,
+      "gender": "women",
+      "category": "accessories",
+      "subcategory": "watches",
+      "productName": "Watches",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/women-watch-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 88,
+      "gender": "men",
+      "category": "footwear",
+      "subcategory": "sneakers",
+      "productName": "sneakers",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/shoes-men-sn-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 89,
+      "gender": "children",
+      "category": "footwear",
+      "subcategory": "sneakers",
+      "productName": "sneakers",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-shoes-sp-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 90,
+      "gender": "children",
+      "category": "accessories",
+      "subcategory": "bags",
+      "productName": "Bags",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/children-bags-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 91,
+      "gender": "men",
+      "category": "accessories",
+      "subcategory": "bags",
+      "productName": "Bags",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/men-bag-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 92,
+      "gender": "men",
+      "category": "accessories",
+      "subcategory": "watches",
+      "productName": "Watches",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/men-watch-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 93,
+      "gender": "children",
+      "category": "accessories",
+      "subcategory": "watches",
+      "productName": "Watches",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Vans",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-watch-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 94,
+      "gender": "children",
+      "category": "clothing",
+      "subcategory": "sweaters",
+      "productName": "Sweaters",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "brand": "Reversed",
+      "pricePLN": 149,
+      "priceUSD": 39,
+      "photos": [
+        "http://localhost:5000/product-photos/kid-sweater-1.jpg",
+        "http://localhost:5000/product-photos/kid-sweater-2.jpg",
+        "http://localhost:5000/product-photos/kid-sweater-3.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    }
+  ],
+  "favourites": [
+    {
+      "productId": 51,
+      "id": 7
+    },
+    {
+      "productId": 22,
+      "id": 12
+    }
+  ]
+}
