@@ -1,20 +1,21 @@
 :root {
-  --bg: #f3f4f6;
-  --glass: rgba(255, 255, 255, 0.6);
-  --glass-border: rgba(255, 255, 255, 0.2);
-  --text-dark: #1f2937;
-  --accent: #6366f1;
-  --success: #5eead4;
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --muted: #666666;
+  --accent: #4f46e5;
   --danger: #ef4444;
-  --shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  --success: #10b981;
+  --border: #e5e7eb;
+  --radius: 12px;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --transition: 0.2s ease-in-out;
 }
 
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background: var(--bg);
-  color: var(--text-dark);
-  line-height: 1.6;
+  color: var(--text);
 }
 
 .App {
@@ -25,135 +26,118 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   color: var(--accent);
 }
 
-/* Sekcja górna – saldo i formularz jeden pod drugim */
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.glass-box {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+}
+
+/* Top section */
 .top-section {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin-bottom: 2rem;
 }
 
-/* Komponent: Saldo */
+/* Balance */
 .balance-box {
-  background: linear-gradient(135deg, #a7f3d0, #6ee7b7);
-  color: #065f46;
-  border-radius: 1.25rem;
   padding: 1rem 1.25rem;
-  box-shadow: var(--shadow);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: #f9fafb;
 }
 
 .balance-box h2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
+  color: var(--muted);
 }
 
 .balance-box p {
-  font-size: 1rem;
-  margin: 0.2rem 0;
-}
-
-/* Komponent: Formularz */
-.glass-box {
-  background: var(--glass);
-  border-radius: 1.5rem;
-  padding: 2rem;
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(12px);
-  border: 1px solid var(--glass-border);
-  flex: 1 1 auto;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 /* Lista transakcji */
-.transaction-list {
-  font-size: 1rem;
-  margin-bottom: 2rem;
-}
-
-/* Karty transakcji */
 .transaction-item {
-  background: white;
-  border-radius: 1rem;
   padding: 1rem;
-  box-shadow: var(--shadow);
-  margin-bottom: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  border-left: 8px solid var(--accent);
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  background: #fff;
 }
 
-/* Wydatki i przychody */
-.transaction-item.expense {
-  border-left-color: var(--danger);
+.transaction-item strong {
+  font-weight: 600;
 }
 
-.transaction-item.income {
-  border-left-color: var(--success);
+.transaction-item small,
+.transaction-item em {
+  color: var(--muted);
+  font-size: 0.875rem;
 }
 
 /* Wykresy */
 .charts {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
 .chart-box {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  justify-content: space-between;
-  background: white;
-  padding: 1rem;
-  border-radius: 1.5rem;
-  box-shadow: var(--shadow);
-  overflow-x: visible;
-
-}
-.chart-box > * {
   flex: 1 1 300px;
+  padding: 1rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #fff;
+  box-shadow: var(--shadow);
 }
-/* Przyciski i inputy */
-button,
+
+/* Inputs i przyciski */
 input,
 select {
-  font-family: inherit;
-  padding: 1rem;
-  border: none;
-  border-radius: 0.75rem;
+  width: 100%;
+  padding: 0.75rem 1rem;
   font-size: 1rem;
-  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #fff;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
 }
 
 button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
   background: var(--accent);
   color: white;
+  border: none;
+  border-radius: var(--radius);
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: background var(--transition);
 }
 
 button:hover {
-  background: #4f46e5;
+  background: #4338ca;
 }
 
-input,
-select {
-  background: white;
-  width: 100%;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-/* Nagłówki sekcji formularza i wykresów */
-h2 {
-  margin-bottom: 1rem;
-  color: var(--text-dark);
+.show-more-container {
+  text-align: center;
+  margin-top: 1rem;
 }

@@ -2,16 +2,14 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-// Funkcja pomocnicza do pobrania miesiąca i roku z daty
 const getMonthYear = (dateStr) => {
   const date = new Date(dateStr);
-  return `${date.getMonth() + 1}-${date.getFullYear()}`; // np. "7-2025"
+  return `${date.getMonth() + 1}-${date.getFullYear()}`;
 };
 
 const MonthlyBarChart = () => {
   const transactions = useSelector(state => state.transactions.transactions);
 
-  // Grupujemy przychody i wydatki po miesiącach
   const dataMap = {};
 
   transactions.forEach(({ date, amount, type }) => {
@@ -29,7 +27,6 @@ const MonthlyBarChart = () => {
     }
   });
 
-  // Zamieniamy obiekt na tablicę i sortujemy wg daty (rosnąco)
   const data = Object.values(dataMap).sort((a, b) => {
     const [mA, yA] = a.month.split('-').map(Number);
     const [mB, yB] = b.month.split('-').map(Number);
@@ -41,7 +38,7 @@ const MonthlyBarChart = () => {
   }
 
   return (
-    <div style={{ width: '100%', height: 300 }}>
+    <div style={{ width: '100%', height: 300, marginBottom:"50px" }}>
       <h2>Przychody i wydatki miesięczne</h2>
       <ResponsiveContainer>
         <BarChart data={data}>

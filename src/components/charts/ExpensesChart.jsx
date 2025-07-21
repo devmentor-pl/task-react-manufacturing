@@ -7,7 +7,6 @@ const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#A28DD0', '#FF6666'
 const ExpensesChart = () => {
   const transactions = useSelector(state => state.transactions.transactions);
 
-  // Grupujemy wydatki wg kategorii
   const expenses = transactions.filter(t => t.type === 'expense');
 
   const data = expenses.reduce((acc, { category, amount }) => {
@@ -26,7 +25,7 @@ const ExpensesChart = () => {
 
   return (
     <div>
-      <h2>Wydatki wg kategorii</h2>
+      <h2>Wydatki wg kategorii (zł.)</h2>
       <PieChart width={400} height={300}>
         <Pie
           data={data}

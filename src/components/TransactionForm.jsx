@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addTransaction } from '../features/transactions/TransactionsSlice';
 import { v4 as uuidv4 } from 'uuid';
+import './TransactionForm.css';
 
 const TransactionForm = () => {
   const dispatch = useDispatch();
@@ -11,7 +12,7 @@ const TransactionForm = () => {
     type: 'income',
     category: '',
     note: '',
-    date: new Date().toISOString().split('T')[0], // YYYY-MM-DD
+    date: new Date().toISOString().split('T')[0],
   });
 
   const categories = ['Jedzenie', 'Transport', 'Rozrywka', 'Opłaty', 'Przelew wewnętrzny', 'Pensja', 'Inne'];
@@ -37,7 +38,6 @@ const TransactionForm = () => {
 
     dispatch(addTransaction(transaction));
 
-    // Reset formularza
     setFormData({
       amount: '',
       type: 'income',
@@ -48,11 +48,11 @@ const TransactionForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="transaction-form glass-box" onSubmit={handleSubmit}>
       <h2>Dodaj transakcję</h2>
 
-      <div>
-        <label>Kwota *</label><br />
+      <div className="form-group">
+        <label>Kwota *</label>
         <input
           type="number"
           name="amount"
@@ -62,16 +62,16 @@ const TransactionForm = () => {
         />
       </div>
 
-      <div>
-        <label>Typ</label><br />
+      <div className="form-group">
+        <label>Typ</label>
         <select name="type" value={formData.type} onChange={handleChange}>
           <option value="income">Przychód</option>
           <option value="expense">Wydatek</option>
         </select>
       </div>
 
-      <div>
-        <label>Kategoria *</label><br />
+      <div className="form-group">
+        <label>Kategoria *</label>
         <select name="category" value={formData.category} onChange={handleChange} required>
           <option value="">-- wybierz --</option>
           {categories.map((cat) => (
@@ -80,8 +80,8 @@ const TransactionForm = () => {
         </select>
       </div>
 
-      <div>
-        <label>Notatka</label><br />
+      <div className="form-group">
+        <label>Notatka</label>
         <input
           type="text"
           name="note"
@@ -90,8 +90,8 @@ const TransactionForm = () => {
         />
       </div>
 
-      <div>
-        <label>Data</label><br />
+      <div className="form-group">
+        <label>Data</label>
         <input
           type="date"
           name="date"
@@ -100,7 +100,9 @@ const TransactionForm = () => {
         />
       </div>
 
-      <button type="submit">Dodaj</button>
+      <div className="form-actions">
+        <button type="submit">Dodaj</button>
+      </div>
     </form>
   );
 };

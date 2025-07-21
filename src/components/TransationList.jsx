@@ -13,7 +13,6 @@ const TransactionList = () => {
     return <p>Brak transakcji</p>;
   }
 
-  // Sortuj od najnowszej
   const sorted = [...transactions].sort((a, b) => new Date(b.date) - new Date(a.date));
   const visible = sorted.slice(0, visibleCount);
 
@@ -22,15 +21,14 @@ const TransactionList = () => {
       <h2>Lista transakcji</h2>
      <ul className="transaction-scroll">
   {visible.map(({ id, amount, type, category, note, date }) => (
-    <li
-      key={id}
-      className={type === 'income' ? 'income' : 'expense'}
-    >
-      <strong>{category}</strong> — {amount.toFixed(2)} PLN ({type}) <br />
-      <small>{date}</small>
-      {note && <em>Notatka: {note}</em>}
-      <button onClick={() => dispatch(deleteTransaction(id))}>Usuń</button>
-    </li>
+  <li key={id} className={type === 'income' ? 'income' : 'expense'}>
+  <div className="transaction-content">
+    <strong>{category}</strong> — {amount.toFixed(2)}zł. <br />
+    <small>{date}</small>
+    {note && <em>Notatka: {note}</em>}
+  </div>
+  <button onClick={() => dispatch(deleteTransaction(id))}>Usuń</button>
+</li>
   ))}
 </ul>
       {visibleCount < sorted.length && (

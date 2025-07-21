@@ -7,7 +7,6 @@ const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#A28DD0', '#FF6666'
 const IncomeChart = () => {
   const transactions = useSelector(state => state.transactions.transactions);
 
-  // Grupujemy przychody wg kategorii
   const incomes = transactions.filter(t => t.type === 'income');
 
   const data = incomes.reduce((acc, { category, amount }) => {
@@ -26,7 +25,7 @@ const IncomeChart = () => {
 
   return (
     <div>
-      <h2>Przychody wg kategorii</h2>
+      <h2>Przychody wg kategorii (zł.)</h2>
       <PieChart width={400} height={300}>
         <Pie
           data={data}
