@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
-import Balance from "./components/Balance";
 import TransactionForm from "./components/TransactionForm";
-import TransactionList from "./components/TransationList";
+import TransactionList from "./components/TransactionList";
 import ExpensesChart from "./components/charts/ExpensesChart";
 import IncomeChart from "./components/charts/IncomeChart";
 import MonthlyBarChart from "./components/charts/MonthlyBarChart";
+import SummaryCards from "./components/SummaryCards";
+import ThemeToggle from "./components/ThemeToggle";
 import { useDispatch } from "react-redux";
 import { fetchTransactions } from "./features/transactions/TransactionsSlice";
 import "./App.css";
@@ -18,11 +19,10 @@ function App() {
 
   return (
     <div className="App">
+      <ThemeToggle />
       <h1>Mój portfel 💰</h1>
       <div className="top-section">
-        <div className="balance-box">
-          <Balance />
-        </div>
+        <SummaryCards />
         <div className="glass-box">
           <TransactionForm />
         </div>

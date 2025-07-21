@@ -1,14 +1,6 @@
 {
   "transactions": [
     {
-      "id": "tx-0001",
-      "amount": 5250,
-      "type": "income",
-      "category": "Pensja",
-      "note": "Wypłata miesięczna",
-      "date": "2025-07-15"
-    },
-    {
       "id": "tx-0002",
       "amount": 150,
       "type": "expense",
@@ -95,14 +87,6 @@
       "category": "Przelew wewnętrzny",
       "note": "",
       "date": "2025-06-21"
-    },
-    {
-      "id": "2db12d7a-ed74-48a6-ab71-851b02ac470a",
-      "amount": 550,
-      "type": "income",
-      "category": "Przelew wewnętrzny",
-      "note": "",
-      "date": "2025-07-21"
     },
     {
       "id": "368a58d5-19e5-4e6f-b3b8-1bc5af356a80",
