@@ -28,8 +28,6 @@ function App() {
       <div className="charts">
         <div className="chart-box">
           <IncomeChart />
-        </div>
-        <div className="chart-box">
           <ExpensesChart />
         </div>
         <div className="chart-box">

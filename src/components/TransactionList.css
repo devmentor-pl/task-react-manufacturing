@@ -1,0 +1,76 @@
+.transaction-scroll-wrapper {
+    position: relative;
+  }
+  
+  .transaction-scroll {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .transaction-scroll li {
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    color: inherit;
+  }
+  
+  .transaction-scroll li.income {
+    color: var(--success);
+  }
+  
+  .transaction-scroll li.expense {
+    color: var(--danger);
+  }
+  
+  .transaction-scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .transaction-scroll::-webkit-scrollbar-thumb {
+    background-color: var(--accent);
+    border-radius: 6px;
+  }
+  
+  .transaction-scroll button {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: var(--accent);
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .transaction-scroll button:hover {
+    background: #4f46e5;
+  }
+
+  .show-more-btn {
+    display: block;
+    margin: 1rem auto 0;
+    padding: 0.75rem 1.5rem;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: background 0.3s ease;
+  }
+  
+  .show-more-btn:hover {
+    background: #4f46e5;
+  }
+  
+  

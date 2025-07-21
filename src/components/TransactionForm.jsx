@@ -14,7 +14,7 @@ const TransactionForm = () => {
     date: new Date().toISOString().split('T')[0], // YYYY-MM-DD
   });
 
-  const categories = ['Jedzenie', 'Transport', 'Rozrywka', 'Opłaty', 'Pensja', 'Inne'];
+  const categories = ['Jedzenie', 'Transport', 'Rozrywka', 'Opłaty', 'Przelew wewnętrzny', 'Pensja', 'Inne'];
 
   const handleChange = (e) => {
     const { name, value } = e.target;

@@ -1,28 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteTransaction } from '../features/transactions/TransactionsSlice';
+import './TransactionList.css';
 
 const TransactionList = () => {
   const transactions = useSelector((state) => state.transactions.transactions);
   const dispatch = useDispatch();
 
+  const [visibleCount, setVisibleCount] = useState(5);
+
   if (transactions.length === 0) {
     return <p>Brak transakcji</p>;
   }
 
+  // Sortuj od najnowszej
+  const sorted = [...transactions].sort((a, b) => new Date(b.date) - new Date(a.date));
+  const visible = sorted.slice(0, visibleCount);
+
   return (
-    <div>
+    <div className="transaction-scroll-wrapper">
       <h2>Lista transakcji</h2>
-      <ul>
-        {transactions.map(({ id, amount, type, category, note, date }) => (
-          <li key={id} style={{ color: type === 'income' ? 'green' : 'red', marginBottom: '10px' }}>
-            <strong>{category}</strong> — {amount.toFixed(2)} PLN ({type}) <br />
-            <small>{date}</small><br />
-            {note && <em>Notatka: {note}</em>}<br />
-            <button onClick={() => dispatch(deleteTransaction(id))}>Usuń</button>
-          </li>
-        ))}
-      </ul>
+     <ul className="transaction-scroll">
+  {visible.map(({ id, amount, type, category, note, date }) => (
+    <li
+      key={id}
+      className={type === 'income' ? 'income' : 'expense'}
+    >
+      <strong>{category}</strong> — {amount.toFixed(2)} PLN ({type}) <br />
+      <small>{date}</small>
+      {note && <em>Notatka: {note}</em>}
+      <button onClick={() => dispatch(deleteTransaction(id))}>Usuń</button>
+    </li>
+  ))}
+</ul>
+      {visibleCount < sorted.length && (
+        <button className="show-more-btn" onClick={() => setVisibleCount(visibleCount + 5)}>
+  Pokaż więcej
+</button>      )}
     </div>
   );
 };
