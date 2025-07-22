@@ -103,6 +103,14 @@
       "category": "Jedzenie",
       "note": "",
       "date": "2025-06-21"
+    },
+    {
+      "id": "5ffa58bc-4938-4d35-92e5-6005c08cffe8",
+      "amount": 5200,
+      "type": "income",
+      "category": "Pensja",
+      "note": "",
+      "date": "2025-07-10"
     }
   ]
 }

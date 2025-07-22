@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { deleteTransaction } from '../features/transactions/TransactionsSlice';
-import './TransactionList.css';
+import { deleteTransaction } from '../../features/transactions/TransactionsSlice';
+import './style.css';
 
 const TransactionList = () => {
   const transactions = useSelector((state) => state.transactions.transactions);

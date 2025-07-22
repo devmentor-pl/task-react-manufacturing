@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './SummaryCards.css';
+import './style.css';
 
 const SummaryCards = () => {
   const transactions = useSelector((state) => state.transactions.transactions);

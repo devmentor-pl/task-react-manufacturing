@@ -1,6 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
-// URL do API
 const API_URL = "http://localhost:3001/transactions";
 
 export const fetchTransactions = createAsyncThunk(

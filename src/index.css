@@ -69,3 +69,6 @@ body.dark-theme .show-more-btn {
 body.dark-theme .show-more-btn:hover {
   background-color: #90caf9;
 }
+.transaction-scroll li:hover {
+  background-color: #f0f0f0;
+}
