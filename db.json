@@ -1,0 +1,116 @@
+{
+  "transactions": [
+    {
+      "id": "tx-0002",
+      "amount": 150,
+      "type": "expense",
+      "category": "Transport",
+      "note": "Bilet autobusowy",
+      "date": "2025-07-18"
+    },
+    {
+      "id": "tx-0003",
+      "amount": 300,
+      "type": "expense",
+      "category": "Jedzenie",
+      "note": "Zakupy spożywcze",
+      "date": "2025-07-10"
+    },
+    {
+      "id": "tx-0004",
+      "amount": 4000,
+      "type": "expense",
+      "category": "Opłaty",
+      "note": "Rachunek za prąd",
+      "date": "2025-07-05"
+    },
+    {
+      "id": "tx-0005",
+      "amount": 5300,
+      "type": "income",
+      "category": "Pensja",
+      "note": "Wypłata miesięczna",
+      "date": "2025-06-15"
+    },
+    {
+      "id": "tx-0006",
+      "amount": 1200,
+      "type": "expense",
+      "category": "Rozrywka",
+      "note": "Wakacje",
+      "date": "2025-06-20"
+    },
+    {
+      "id": "tx-0007",
+      "amount": 80,
+      "type": "expense",
+      "category": "Transport",
+      "note": "Taxi",
+      "date": "2025-06-25"
+    },
+    {
+      "id": "tx-0008",
+      "amount": 5450,
+      "type": "income",
+      "category": "Pensja",
+      "note": "",
+      "date": "2025-05-31"
+    },
+    {
+      "id": "tx-0009",
+      "amount": 350,
+      "type": "expense",
+      "category": "Jedzenie",
+      "note": "Obiad z rodziną",
+      "date": "2025-05-20"
+    },
+    {
+      "id": "tx-0010",
+      "amount": 2200,
+      "type": "expense",
+      "category": "Inne",
+      "note": "Nowy sprzęt AGD",
+      "date": "2025-05-15"
+    },
+    {
+      "id": "f5f27f12-af64-4b01-b1be-d17525c74fbc",
+      "amount": 500,
+      "type": "income",
+      "category": "Przelew wewnętrzny",
+      "note": "",
+      "date": "2025-05-21"
+    },
+    {
+      "id": "09cc8b13-0aec-4edc-8915-cd841d5fed2f",
+      "amount": 400,
+      "type": "income",
+      "category": "Przelew wewnętrzny",
+      "note": "",
+      "date": "2025-06-21"
+    },
+    {
+      "id": "368a58d5-19e5-4e6f-b3b8-1bc5af356a80",
+      "amount": 4000,
+      "type": "expense",
+      "category": "Rozrywka",
+      "note": "Wakacje",
+      "date": "2025-05-21"
+    },
+    {
+      "id": "0b2a2822-b756-4179-95bf-adde01e27a9a",
+      "amount": 1200,
+      "type": "expense",
+      "category": "Jedzenie",
+      "note": "",
+      "date": "2025-06-21"
+    },
+    {
+      "id": "5ffa58bc-4938-4d35-92e5-6005c08cffe8",
+      "amount": 5200,
+      "type": "income",
+      "category": "Pensja",
+      "note": "",
+      "date": "2025-07-10"
+    }
+  ]
+}

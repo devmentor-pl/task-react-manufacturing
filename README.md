@@ -1,26 +1,40 @@
-
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
-
-&nbsp;
+MÓJ PORTFEL
 
 
-# React: Wytwarzanie
+Aplikacja do dodawania i zarządzania transakcjami (przychody, wydatki).
 
-W tym module czeka Cię zaplanowanie i zbudowanie **własnej aplikacji od zera**. Być może masz już pomysł, a może któryś z Twoich znajomych potrzebuje jakiegoś narzędzia.
+Funkcjonalności:
 
-Nie musi to być przełomowy produkt, którego nikt nigdy nie wymyślił. Inspiruj się już istniejącymi rozwiązaniami i dodaj do nich elementy, których Twoim zdaniem zawsze im brakowało.
+1. Formularz dodawania transakcji z polami:
+- Kwota (wymagane)
+- Typ (przychód / wydatek)
+- Kategoria (wymagane)
+- Notatka
+- Data
 
-Niech ten projekt będzie Twoją wizytówką i **oddaje to, czym chciał(a)byś się zajmować**. Jeśli wolisz tworzyć strony internetowe – zakoduj taką, wykorzystując Reacta, Reduxa i np. CMS. Jeżeli marzą Ci się aplikacje internetowe – zadbaj o UX i jak najlepsze działanie we wszystkich rozdzielczościach.
+2. Walidacja podstawowych pól formularza
 
-Postaraj się przejść cały proces – od stworzenia MVP, przez zaprojektowanie warstwy graficznej, po zaplanowanie całego procesu kodowania i deploy. Napisanie testów na pewno będzie dużym atutem.
+3. Wysyłanie danych do backendu (np. json-server lub inny REST API)
 
-🎬 Nie wiesz, od czego zacząć? Obejrzyj moje wideo *[Jakie projekty warto robić, aby wyróżnić się na tle konkurencji?](https://devmentor.pl/b/jakie-projekty-warto-robic-aby-wyroznic-sie-na-tle-konkurencji)*.
+4. Zarządzanie stanem transakcji w Reduxie
 
 
-&nbsp;
+Technologie:
+- React (funkcjonalne komponenty, hooks)
+- Redux (do zarządzania stanem)
+- UUID do generowania unikalnych ID
+- CSS do prostego stylowania
+- json-server (lub dowolny backend REST API) do przechowywania transakcji
 
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+Instalacja i uruchomienie
+1. Klonuj repozytorium
+- git clone <adres-repozytorium>
+2. Zainstaluj zależności
+- npm install
+3. Uruchom backend (json-server lub własny serwer)
+- npx json-server --watch db.json --port 3001
+4. Uruchom frontend
+- npm start
+
+Testy
+- npm test
