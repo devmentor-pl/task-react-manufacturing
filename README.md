@@ -8,7 +8,7 @@
 
 # React: Wytwarzanie
 
-W tym module czeka Cię zaplanowanie i zbudowanie **własnej aplikacji od zera**. Być może masz już pomysł, a może któryś z Twoich znajomych potrzebuje jakiegoś narzędzia.
+W tym module czeka Cię zaplanowanie i zbudowanie **własnej aplikacji od zera**. Być może masz już pomysł (np. rozwijasz to, co zaplanowałęś w "zdaniach"), a może któryś z Twoich znajomych potrzebuje jakiegoś narzędzia.
 
 Nie musi to być przełomowy produkt, którego nikt nigdy nie wymyślił. Inspiruj się już istniejącymi rozwiązaniami i dodaj do nich elementy, których Twoim zdaniem zawsze im brakowało.
 
