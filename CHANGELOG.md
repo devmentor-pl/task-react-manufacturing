@@ -19,3 +19,11 @@
 
 - Styled-Components
 - Netlify Functions implemented
+
+## [0.3.1] - 2026-06-28
+
+### Added
+
+- Redux Store
+- Redux Thunks
+- Redux Selectors
