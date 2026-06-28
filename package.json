@@ -1,7 +1,7 @@
 {
   "name": "task-react-manufacturing",
   "homepage": ".",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",
