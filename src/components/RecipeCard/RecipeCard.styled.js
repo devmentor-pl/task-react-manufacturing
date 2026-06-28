@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { lineClamp } from './common.styled';
+import { lineClamp } from '../Common/common.styled';
 
 export const Card = styled.article`
   display: flex;

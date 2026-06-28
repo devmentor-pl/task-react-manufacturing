@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { lineClamp } from './common.styled';
+import { lineClamp } from '../Common/common.styled';
 
 export const Article = styled.article`
   width: 100%;
@@ -211,6 +211,7 @@ export const Prose = styled.div`
   }
 `;
 
+/* Lista składników */
 export const IngredientList = styled.ul`
   display: grid;
   gap: 10px;
@@ -272,6 +273,7 @@ export const StepText = styled.p`
   padding-top: 5px;
 `;
 
+/* Tagi na dole artykułu */
 export const Tags = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -325,3 +327,9 @@ const StyledRecipeArticle = {
 };
 
 export default StyledRecipeArticle;
+
+export const SimilarGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+`;

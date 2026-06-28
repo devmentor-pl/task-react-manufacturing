@@ -1,4 +1,8 @@
-import { createAsyncThunk, createSlice, createSelector } from '@reduxjs/toolkit';
+import {
+  createAsyncThunk,
+  createSlice,
+  createDraftSafeSelector as createSelector,
+} from '@reduxjs/toolkit';
 import { recipesApi } from './recipesApi';
 
 const initialFilters = {

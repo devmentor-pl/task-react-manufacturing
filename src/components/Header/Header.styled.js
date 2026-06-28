@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Button } from './common.styled';
+import { Button } from '../Common/common.styled';
 
 export const Header = styled.header`
   position: sticky;
