@@ -27,3 +27,11 @@
 - Redux Store
 - Redux Thunks
 - Redux Selectors
+
+## [0.4.1] - 2026-06-28
+
+### Added
+
+- Components
+- Styled Components
+- Global Style
