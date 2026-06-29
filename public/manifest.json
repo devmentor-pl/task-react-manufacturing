@@ -1,0 +1,6 @@
+{
+  "short_name": "React Recipes App",
+  "name": "React Recipes App",
+  "start_url": ".",
+  "display": "standalone"
+}

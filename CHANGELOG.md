@@ -1,0 +1,44 @@
+## [0.1.0] - 2026-06-28
+
+### Added
+
+- CRA initialized
+- Redux installed
+- Prettier config init
+- netlify linked with homepage and config
+
+## [0.1.1] - 2026-06-28
+
+### Fixed
+
+-Netlify.toml prettier warnings to errors fixed
+
+## [0.2.1] - 2026-06-28
+
+### Added
+
+- Styled-Components
+- Netlify Functions implemented
+
+## [0.3.1] - 2026-06-28
+
+### Added
+
+- Redux Store
+- Redux Thunks
+- Redux Selectors
+
+## [0.4.1] - 2026-06-28
+
+### Added
+
+- Components
+- Styled Components
+- Global Style
+
+## [0.5.1] - 2026-06-28
+
+### Added
+
+- cache on search
+- Redux cached
