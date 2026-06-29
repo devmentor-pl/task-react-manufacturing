@@ -9,8 +9,10 @@ import {
   setQuery,
   setFilter,
   setSort,
+  setCachedRecipes,
   selectFilters,
   selectTotalResults,
+  selectCachedItems,
 } from '../../store/recipesSlice';
 
 const CUISINES = ['All', 'Italian', 'Mexican', 'Asian', 'Mediterranean', 'American', 'French'];
@@ -27,6 +29,7 @@ export default function RecipeFilters() {
   const dispatch = useDispatch();
   const filters = useSelector(selectFilters);
   const total = useSelector(selectTotalResults);
+  const cachedRecipes = useSelector(selectCachedItems);
 
   const [term, setTerm] = useState(filters.query);
   const debounce = useRef();
@@ -34,6 +37,12 @@ export default function RecipeFilters() {
   const onSearch = (e) => {
     const value = e.target.value;
     setTerm(value);
+
+    const filteredCache = cachedRecipes.filter((recipe) =>
+      recipe.title.toLowerCase().includes(String(value))
+    );
+    dispatch(setCachedRecipes(filteredCache));
+
     clearTimeout(debounce.current);
     debounce.current = setTimeout(() => {
       dispatch(setQuery(value));

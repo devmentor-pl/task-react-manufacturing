@@ -1,6 +1,6 @@
 import { callSpoonacular, withGet } from '../src/utils/Spoonacular.js';
 
-exports.handler = withGet((params) => {
+export const handler = withGet((params) => {
   if (!params.id) {
     const err = new Error('Parametr "id" jest wymagany (id przepisu).');
     err.statusCode = 400;

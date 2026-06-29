@@ -35,3 +35,10 @@
 - Components
 - Styled Components
 - Global Style
+
+## [0.5.1] - 2026-06-28
+
+### Added
+
+- cache on search
+- Redux cached

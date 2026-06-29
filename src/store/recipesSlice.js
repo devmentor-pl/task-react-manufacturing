@@ -19,6 +19,7 @@ const initialFilters = {
 
 const initialState = {
   items: [],
+  cachedItems: [],
   totalResults: 0,
   status: 'idle',
   error: null,
@@ -77,6 +78,7 @@ const makeFulfilled = (mode) => (state, action) => {
   state.status = 'succeeded';
   state.mode = mode;
   state.items = action.payload.items;
+  state.cachedItems = action.payload.items;
   state.totalResults = action.payload.totalResults;
 };
 
@@ -100,6 +102,9 @@ const recipesSlice = createSlice({
     },
     setPage(state, action) {
       state.filters.offset = Math.max(0, (action.payload - 1) * state.filters.number);
+    },
+    setCachedRecipes(state, action) {
+      state.cachedItems = action.payload;
     },
     nextPage(state) {
       state.filters.offset += state.filters.number;
@@ -130,8 +135,17 @@ const recipesSlice = createSlice({
   },
 });
 
-export const { setQuery, setFilter, setSort, setPage, nextPage, prevPage, setMode, resetFilters } =
-  recipesSlice.actions;
+export const {
+  setQuery,
+  setFilter,
+  setSort,
+  setPage,
+  nextPage,
+  prevPage,
+  setMode,
+  resetFilters,
+  setCachedRecipes,
+} = recipesSlice.actions;
 
 export default recipesSlice.reducer;
 
@@ -142,6 +156,7 @@ export const selectFilters = (state) => state.recipes.filters;
 export const selectMode = (state) => state.recipes.mode;
 export const selectTotalResults = (state) => state.recipes.totalResults;
 export const selectIsLoading = (state) => state.recipes.status === 'loading';
+export const selectCachedItems = (state) => state.recipes.cachedItems;
 
 export const selectHasMore = createSelector(
   [selectFilters, selectTotalResults],

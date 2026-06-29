@@ -1,16 +1,16 @@
-const qs = (params = {}) => {
+const querySearch = (params = {}) => {
   const sp = new URLSearchParams();
   Object.entries(params).forEach(([key, value]) => {
     if (value !== undefined && value !== null && value !== '') {
       sp.set(key, value);
     }
   });
-  const s = sp.toString();
-  return s ? `?${s}` : '';
+  const string = sp.toString();
+  return string ? `?${string}` : '';
 };
 
 async function getJson(fn, params) {
-  const res = await fetch(`/api/${fn}${qs(params)}`);
+  const res = await fetch(`/api/${fn}${querySearch(params)}`);
 
   let data = null;
   try {

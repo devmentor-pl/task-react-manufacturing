@@ -4,15 +4,14 @@ import StyledRecipeArticle, { SimilarGrid } from './RecipeArticle.styled';
 import RecipeCard from '../RecipeCard/RecipeCard';
 import { fetchSimilar, selectSimilar } from '../../store/similarSlice';
 
-const similarImage = (r) =>
-  r.image || `https://img.spoonacular.com/recipes/${r.id}-312x231.${r.imageType || 'jpg'}`;
+const similarImage = (recipe) => `https://img.spoonacular.com/recipes/${recipe.id}-312x231.jpg`;
 
 export default function RecipeArticle({ recipe }) {
   const dispatch = useDispatch();
   const similar = useSelector(selectSimilar);
 
   useEffect(() => {
-    if (recipe?.id) dispatch(fetchSimilar({ id: recipe.id, number: 4 }));
+    if (recipe?.id) dispatch(fetchSimilar({ id: recipe.id, number: 3 }));
   }, [dispatch, recipe?.id]);
 
   if (!recipe) return null;
@@ -127,8 +126,8 @@ export default function RecipeArticle({ recipe }) {
         <StyledRecipeArticle.Block>
           <StyledRecipeArticle.BlockTitle>You might also like</StyledRecipeArticle.BlockTitle>
           <SimilarGrid>
-            {similar.map((r) => (
-              <RecipeCard key={r.id} recipe={{ ...r, image: similarImage(r) }} />
+            {similar.map((recipe) => (
+              <RecipeCard key={recipe.id} recipe={{ ...recipe, image: similarImage(recipe) }} />
             ))}
           </SimilarGrid>
         </StyledRecipeArticle.Block>

@@ -13,6 +13,7 @@ import {
   selectRecipesError,
   selectHasMore,
   selectCurrentPage,
+  selectCachedItems,
 } from '../../store/recipesSlice';
 
 export default function RecipeList() {
@@ -22,6 +23,7 @@ export default function RecipeList() {
   const error = useSelector(selectRecipesError);
   const hasMore = useSelector(selectHasMore);
   const page = useSelector(selectCurrentPage);
+  const cachedRecipes = useSelector(selectCachedItems);
 
   useEffect(() => {
     if (recipes.length === 0) dispatch(fetchRecipes());
@@ -30,12 +32,16 @@ export default function RecipeList() {
 
   const goNext = () => {
     dispatch(nextPage());
+
     dispatch(fetchRecipes());
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
   const goPrev = () => {
     dispatch(prevPage());
+
     dispatch(fetchRecipes());
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -43,25 +49,23 @@ export default function RecipeList() {
     <Container>
       <RecipeFilters />
 
-      {error && <StateMsg>Coś poszło nie tak: {error}</StateMsg>}
-      {!error && !loading && recipes.length === 0 && (
-        <StateMsg>Brak przepisów dla tych filtrów.</StateMsg>
-      )}
+      {error && <StateMsg>Something went wrong: {error}</StateMsg>}
+      {!error && !loading && recipes.length === 0 && <StateMsg>No results.</StateMsg>}
 
       <Grid>
-        {recipes.map((recipe) => (
-          <RecipeCard key={recipe.id} recipe={recipe} />
-        ))}
+        {cachedRecipes.length > 0
+          ? cachedRecipes.map((recipe) => <RecipeCard key={recipe.id} recipe={recipe} />)
+          : recipes.map((recipe) => <RecipeCard key={recipe.id} recipe={recipe} />)}
       </Grid>
 
-      {loading && <StateMsg>Ładowanie…</StateMsg>}
+      {loading && <StateMsg>Loading…</StateMsg>}
 
       {recipes.length > 0 && (
         <Pager>
           <Button type="button" $variant="ghost" onClick={goPrev} disabled={page <= 1}>
             ‹ Prev
           </Button>
-          <PageInfo>Strona {page}</PageInfo>
+          <PageInfo>Page {page}</PageInfo>
           <Button type="button" $variant="ghost" onClick={goNext} disabled={!hasMore}>
             Next ›
           </Button>
